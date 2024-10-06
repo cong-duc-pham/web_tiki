@@ -1,0 +1,148 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* thanh freeship*/
+.freeship{
+    height: 50px;
+    background-color: #f0fef4;
+}
+.text{
+    padding-top: 0.9%;
+    font-family: arial;
+    font-size: 75%;
+    text-align: center;
+    color: #16b365;
+}
+#FS{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1670ff;
+    font-size: 110%;
+}
+#xtra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0daf5ed8;
+    font-size: 110%;
+}
+.menu{
+    display: flex;
+    height: 20%;
+}
+/* logo */
+.home-logo{
+    position: relative;
+    width: 10%;
+    text-align: center;
+    margin-left: 9%;
+}
+.home-logo #logo{
+    width: 75%;
+}
+.home-logo #text{
+    color: #0d48a6;
+}
+/* Thanh tìm kiếm */
+.task{
+    position: static;
+    display: flex;
+    width: 990px;
+    height: 60px;
+}
+.search{
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 5%;
+    border: solid 0.5px rgb(224, 224, 224);
+    border-radius: 10px;
+    margin-top: 1.5%;
+}
+.icon-search{
+    padding-top: 2%;
+    padding-left: 3%;
+    width: 3%;
+    height: 50%;
+}
+.input-search{
+    border: none;
+    width: 80%;
+}
+.button-search{
+    border: none;
+    background-color: white;
+    border-left: solid 0.4px rgb(224, 224, 224);
+    text-align: center;
+}
+.link-search{
+    text-decoration: none;
+    text-align: center;
+    color: #1670ff;
+    font-size: 115%;
+    padding-top: 1.5%;
+}
+.menu-shortcut{
+    display: flex;
+    margin-top: 3%;
+    height: 42px;
+    padding-left: 97%;
+}
+.shortcut-home{
+    display: flex;
+    width: 150px;
+    padding: 2%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.icon-home{
+    margin-top: 2%;
+}
+.link-shortcut-home{
+    text-align: justify;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 110%;
+}
+.shortcut-user{
+    display: flex;
+    width: 150px;
+    padding: 2%;
+}
+.link-shortcut-user{
+    text-align: justify;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 110%;
+}
+.icon-user{
+    margin-top: 2%;
+}
+.shortcut-shoppingcart{
+    width: ;
+    display: flex;
+}
+.icon-card{
+    margin-top: 26%;
+}
+.number{
+    background-color: red;
+    border:5px solid red ;
+    border-radius: 200px;
+    width: 3%;
+    height: 10%;
+}
+
+footer{
+    display: flex;
+}
+.logo-connect{
+    width: 3%;
+}
+.icon-connect{
+    width: 8%;
+}
