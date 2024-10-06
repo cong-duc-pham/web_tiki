@@ -26,7 +26,7 @@ body{
     color: #0daf5ed8;
     font-size: 110%;
 }
-.menu{
+.container-menu{
     display: flex;
     height: 15%;
 }
@@ -35,36 +35,33 @@ body{
     position: relative;
     width: 8%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 13%;
 }
 .home-logo #logo{
     width: 75%;
 }
 .home-logo #text{
-    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
     color: #0d48a6;
 }
 /* Thanh tìm kiếm */
-.task{
-    display: flex;
-    position: static;
+.container-search{
     width: 990px;
     height: 60px;
 }
 .search{
     position: absolute;
     display: flex;
-    width: 40%;
-    height: 5%;
+    width: 45%;
+    height: 4%;
     border: solid 0.5px rgb(224, 224, 224);
     border-radius: 10px;
-    margin-top: 1.5%;
 }
 .icon-search{
-    padding-top: 2%;
+    padding-top: 1%;
     padding-left: 3%;
     width: 3%;
-    height: 50%;
+    height: 68%;
 }
 .input-search{
     border: none;
@@ -83,11 +80,13 @@ body{
     font-size: 115%;
     padding-top: 1.5%;
 }
+/*shortcut */
+.middle-container{
+    display: flex;
+}
 .menu-shortcut{
     display: flex;
-    margin-top: 3%;
-    height: 42px;
-    padding-left: 9%;
+    height: 30px;
 }
 .shortcut-home{
     display: flex;
@@ -136,7 +135,7 @@ body{
     width: 3%;
     height: 10%;
 }
-
+/* foooter*/
 footer{
     display: flex;
 }
@@ -145,4 +144,40 @@ footer{
 }
 .icon-connect{
     width: 8%;
+}
+/*bottom header*/
+.bottom-container{
+    margin-top: 1%;
+    display: flex;
+    height: 20px;
+}
+.list-recommend{
+    position: absolute;
+    display: flex;
+    width: 50%;
+}
+.link-recommend{
+    text-decoration: none;
+    color: gray;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-left: 1%;
+}
+.location{
+    position: fixed;
+    display: flex;
+    width: 20%;
+    height: 30px;
+}
+.img-location{
+    width: 6.5%;
+    height: 80%;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+.address{
+    padding-top: 6%;
+}
+.text-location{
+    color: gray;
 }
