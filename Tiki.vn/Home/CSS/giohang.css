@@ -1,0 +1,32 @@
+.shopping-cart-container {
+    border: solid 1px ;
+    height: 50px;
+    width: 50px;
+    background-color: #f8f8f8; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+.shopping-cart-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cart-empty img {
+    width: 120px; 
+    margin-bottom: 10px;
+}
+
+.cart-empty h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.cart-empty p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
