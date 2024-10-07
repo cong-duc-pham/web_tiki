@@ -186,9 +186,32 @@ body{
 .link-address{
     color: black;
 }
-/* foooter*/
-footer{
+/* commit */
+.commit{
+    font-size: 90%;
     display: flex;
+    height: 5%;
+    width: 100%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-commit{
+    margin-left: 3%;
+    border-left: solid grey 0.5px ;
+    padding-left: 20px;
+}
+.img-commit{
+    width: 20px;
+}
+/* foooter*/
+.style-footer{
+    display: flex;
+    width: 75%;
+    float: right;
+}
+.block{
+    border: solid 1px;
+    width: 17%;
 }
 .logo-connect{
     width: 3%;
@@ -196,3 +219,4 @@ footer{
 .icon-connect{
     width: 8%;
 }
+
