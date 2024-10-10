@@ -64,6 +64,9 @@
 .choose{
     background-color: white;
     padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px gray;
+    border-radius: 10px;
 }
 .list-left-choose{
     color: gray;
@@ -93,14 +96,14 @@
 }
 .mid-choose{
     margin-left: 8%;
-    width: 40%;
+    width: 35%;
     padding-left: 2%;
+    border-left: solid 0.5px gray;
 }
 .header-choose{
     color: gray;
 }
 .button-mid-choose{
-    background-color: green;
     display: flex;
     width: 85%;
 }
@@ -121,9 +124,83 @@
 .right-choose{
     width: 15%;
     padding-left: 1%;
+    border-left: solid 1px gray;
 }
 .button-right-choose{
-    background-color: pink;
     display: flex;
     width: 85%;
+}
+.more-option{
+    margin-left: 1%;
+    width: 40px;
+}
+.all{
+    margin-left: 3%;
+    border-left: solid 1px gray;
+}
+.style-button-all{
+    background-color: white;
+    display: flex;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 19px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 15px;
+    height: 36px;
+}
+.filter{
+    background-color: white;
+    padding-top: 10px;
+
+}
+.now{
+    padding-left: 8px;
+    width:3%;
+}
+.ship-2H{
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.checkbox{
+    transform: scale(1.5);
+}
+.left-filter{
+    margin-left: 1%;
+    padding-top: 5px;
+}
+.mid-filter{
+    padding-left: 13px;
+    border-left: solid 1px gray;
+}
+.top{
+    width: 10%;
+}
+.right-filter{
+    padding-left: 10px;
+    border-left: solid 1px gray;
+}
+.free{
+    width: 8%;
+}
+.end-filter{
+    border-left: solid 1px gray;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.icon{
+    color: rgb(216, 176, 17);
+}
+.arrange{
+    float: right;
+}
+.text-arrange{
+    color: gray;
+}
+.popular{
+    border-radius: 10px;
+    padding-bottom: 5px;
+    text-align: center;
 }
