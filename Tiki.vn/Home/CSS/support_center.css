@@ -1,0 +1,136 @@
+.total{
+    background-color: #f5f5fa;
+    margin-left: 26%;
+    margin-right: 9.6%;
+}
+.Content{
+    background-color: white;
+}
+.title{
+    margin-left: 15px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(50, 50, 50, 0.888);
+}
+.take-care{
+    background-color: white;
+    border-radius: 10px;
+}
+.title-take-care{
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list{
+    display: flex;
+}
+.hotline{
+    margin-left: 15px;
+    width: 31%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f5f5fa;
+}
+.mid{
+    text-align: center;
+}
+.phone{
+    color: rgb(71, 71, 244);
+    font-size: 30px;
+    padding-top: 10px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.text-bottom{
+    font-size: small;
+    color: gray;
+}
+.meet{
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 31%;
+    border-radius: 10px;
+    background-color: #f5f5fa;
+}
+.assistant{
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+.phone-number{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colobutt{
+    background-color: #0A68FF;
+    color: white;
+    border-radius: 5px;
+    border: #0A68FF;
+    height: 25px;
+}
+.mail{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 31%;
+    background-color: #f5f5fa;
+    margin-left: 13px;
+}
+.icon-mail{
+    margin-top: 10px;
+    color: #0A68FF;
+    font-size: 35px;
+}
+.text-bottom-mail{
+    font-size: 15px;
+    color: gray;
+}
+.look-up-information{
+    margin-top: 40px;
+    margin-left: 13px;
+    border-radius: 10px;
+    background-color: white;
+}
+.title-look-up-information{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.content-look-up-information{
+    display: flex;
+}
+.left-look-up-information{
+    width: 50%;
+}
+.icon-left-look-up-information{
+    font-size: 28px;
+    margin-top: 10px;
+    color: gray;
+}
+.title-part{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-part{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.more{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A68FF;
+}
+.right-look-up-information{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.icon-right-look-up-information{
+    font-size: 28px;
+    color: gray;
+}
+.insuarance{
+    margin-top: 30px;
+}
+.information{
+    margin-top: 30px;
+}
