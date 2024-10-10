@@ -1,0 +1,370 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* dinh dang thanh freeship tren cung*/
+.freeship{
+    height: 50px;
+    background-color: #f0fef4;
+}
+.text{
+    padding-top: 0.9%;
+    font-family: arial;
+    font-size: 75%;
+    text-align: center;
+    color: #16b365;
+}
+#FS{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1670ff;
+    font-size: 110%;
+}
+#xtra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0daf5ed8;
+    font-size: 110%;
+}
+.container-menu{
+    display: flex;
+    height: 20%;
+}
+/* style header */
+.home-logo{  /* dinh dang div logo home */
+    position: relative;
+    width: 8%;
+    text-align: center;
+    margin-left: 16%;
+}
+.home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
+    width: 85%;
+}
+.home-logo #text{ /* dinh dang text cua logo home*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d48a6;
+}
+
+/* Thanh tìm kiếm */
+.container-search{
+    width: 80%;
+    height: 90%;
+}
+.icon-search{     /* kich thuoc icon search */
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 2.5%;
+    height: 55%;
+}
+.input-search{
+    border: none;
+    width: 80%;
+}
+.button-search{  /* dinh dang nut tim kiem*/
+    width: 1%;
+    border: none;
+    background-color: white;
+    border-left: solid 0.4px rgb(224, 224, 224);
+    text-align: center;
+    padding-left: 2.5%;
+}
+.link-search{  /*dinh dang text cua nut search */
+    text-decoration: none;
+    text-align: center;
+    color: #1670ff;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+}
+.middle-container{  /* dinh dang div o tren*/
+    margin-left: 1%;
+    position: absolute;
+    display: flex;
+    width: 69%;
+    height: 4%;
+    margin-top: 15px;
+}
+.search{ /*chieu dai cua thanh tim kiem*/
+    display: flex;
+    width: 68%;
+    height: 120%;
+    border: solid 0.5px rgb(224, 224, 224);
+    border-radius: 10px;
+}
+.menu-shortcut{  /* dinh dang div cua thanh chuc nang*/
+    display: flex;
+    margin-left: 1%;
+}
+.shortcut-home{ /*dinh dang chuc nang nut trang chu */
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    width: 150px;
+    padding: 2%;
+    margin-left: 10%;
+}
+.shortcut-home:hover{
+    background-color: #e0ecff;
+}
+.icon-home{  /* dinh dang icon home*/
+    width: 22%;
+    height: 130%;
+}
+.link-shortcut-home{  /* dinh dang text */ 
+    color: #0071ff;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-user{ /*dinh dang nut tai khoan */
+    display: flex;
+    border: solid 0px;
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+}
+.icon-user{ /* dinh dang icon*/
+    width: 23%;
+    height: 120%;
+}
+.shortcut-user:hover{
+    background-color: #e5e5e5;
+}
+.link-shortcut-user{/* dinh dang text */ 
+    text-align: justify;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-shoppingcart{ /* dinh dang nut gio hang*/
+    border-radius: 10px;
+    margin-top: 1%;;
+    padding-left: 5px;
+    height: 90%;
+    display: flex;
+}
+.shortcut-shoppingcart:hover{
+    background-color: #e0ecff;
+}
+.icon-card{
+    width: 90%;
+}
+.number{
+    display: flex;
+    background-color: red;
+    border:5px solid red ;
+    border-radius: 200px;
+    width: 3%;
+    height: 10%;
+}
+/*bottom header*/
+.bottom-container{
+    position: absolute;
+    display: flex;
+    margin-top: 3.5%;
+    width: 90%;
+}
+.list-recommend{
+    width: 200%;
+    height: 5%;
+}
+.link-recommend{
+    text-decoration: none;
+    color: gray;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-left: 1%;
+    height: 30px;
+}
+.location{
+    display: flex;
+    width: 200%;
+    padding-left: 10%;
+    color: black;
+}
+.img-location{
+    width:30px;
+    height: 25px;
+    text-decoration: underline;
+    color: black;
+}
+.text-location{
+    color: gray;
+}
+.link-address{
+    color: black;
+}
+/* commit */
+.commit{
+    font-size: 90%;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-commit{
+    margin-left: 3%;
+    border-left: solid grey 0.5px ;
+    padding-left: 20px;
+}
+.img-commit{
+    width: 20px;
+}
+/* Main */
+main{
+    display: flex;
+    background-color: #f5f5fa;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+.container-main{
+    height: 90%;
+    border: dotted;
+    background-color: #16b365;
+}
+.main-display{
+
+}
+.display-item{
+    height: 30%;
+    background-color: red;
+}
+.slide-items{
+
+}
+.list-event{
+
+}
+.list-top-deal{
+
+}
+.plash-sale{
+
+}
+.prominent-brand{
+
+}
+.items-foreign{
+
+}
+.items-recommend{
+
+}
+.maybe-you-like{
+
+}
+.recommend-today{
+}
+/* foooter*/
+.style-footer{
+    display: flex;
+    background-color: #0d48a6;
+    margin-top:1%;
+}
+.footer-information{
+    background-color: green;
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+.style1{
+    border: dotted;
+    display: flex;
+    width: 60%;
+}
+.std-hotline{
+    color: black;
+}
+.block{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    width: 17.5%;
+    margin-left: 2%;
+}
+.more-information{
+    margin-top: 7%
+}
+.text-block{
+    font-size: 120%;
+}
+.list-link {
+    height: 150%;
+    color: gray;
+    text-decoration: none;
+}
+.email-hotline{
+    text-decoration: none;
+    color: gray;
+}
+.icon-connect{
+    display: flex;
+    width: 8%;
+}
+.img-tikinow{
+    width: 50%;
+}
+.logo-contact{
+    display: flex;
+}
+.list-logo1{
+    width: 40%;
+}
+.list-logo2{
+    width: 250%;
+    margin-left: -70px;
+}
+.list-logo3{
+    width: 80%;
+}
+.icon-install{
+    display: flex;
+}
+.logo-connect{
+    width: 14%;
+}
+.icon-connect{
+    width: 80%;
+}
+/* sidebar */
+.sidebar{
+    width: 85%;
+    margin-top: 1%;
+}
+.list-item{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 5% 2%;
+}
+.box-item{
+    display: flex;
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.header-list{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.img-item{
+    background-color: green;
+    width: 16%;
+}
+.link-item{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.text-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
