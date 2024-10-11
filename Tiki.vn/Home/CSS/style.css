@@ -106,7 +106,7 @@ body{
     background-color: #e0ecff;
 }
 .icon-home{  /* dinh dang icon home*/
-    width: 22%;
+    width: 25%;
     height: 130%;
 }
 .link-shortcut-home{  /* dinh dang text */ 
@@ -220,27 +220,112 @@ main{
     background-color: #f5f5fa;
     padding-left: 13%;
     padding-right: 13%;
+    height: 200%;
 }
 .container-main{
-    height: 90%;
     border: dotted;
-    background-color: #16b365;
+    margin-left: 1%;
+    background-color: blueviolet;
+    padding: 1%;
+    
+}
+.side{
+    display: flex;
 }
 .main-display{
-
+    background-color: aquamarine;
 }
-.display-item{
-    height: 30%;
-    background-color: red;
+/* .list-slide{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    background-color: #16b365;
+} */
+.img-slide{
+    width: 49%;
+    border-radius: 3%; 
+    margin-left: 1%;
 }
 .slide-items{
-
+    display: flex;
+    padding: 2%;
+    background-color: white;
+    border-radius: 20px;
 }
 .list-event{
-
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    height: 10%;
+    margin-top: 2%;
+    padding: 1%;
+}
+.event{
+    margin-left: 0.4%;
+    width: 9.5%;;
+}
+.img-icon-event{
+    width: 50%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 35%;
+}
+.box-text-event{
+    text-align: center;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* muc top-deal */
+.text-top-deal{
+    left: 0;
+    color: #db424d;
 }
 .list-top-deal{
-
+    border: dotted;
+    background-color: #554142;
+    height: 500px;
+    margin-top: 2%;
+    padding: 1%;
+}
+.header-top-deal{
+    background-color: #16b365;
+}
+.list-box{
+    margin-top: 2%;
+}
+.box{
+    background-color: cadetblue;
+    border: dotted;
+    width: 19%;
+    height: 410px;
+}
+.img-of-box{
+    float: left;
+    background-color: red;
+    height: 45%;
+}
+.some-img-of-box{
+    position: absolute;
+    float: left;
+    width: 11%;
+}
+.info-of-box{
+    position: absolute;
+    background-color: yellow;
+}
+.now-of-box{
+    background-color: red;
+    position: absolute;
+}
+.img-top-deal{
+    width: 20%;
+    background-color: yellow;
+}.link-top-deal{
+    color: #0071ff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    float: right;
 }
 .plash-sale{
 
@@ -262,11 +347,10 @@ main{
 /* foooter*/
 .style-footer{
     display: flex;
-    background-color: #0d48a6;
-    margin-top:1%;
+    background-color: white;
+    margin-top:1.5%;
 }
 .footer-information{
-    background-color: green;
     display: flex;
     width: 100%;
     height: 25%;
@@ -335,34 +419,33 @@ main{
     width: 85%;
     margin-top: 1%;
 }
-.list-item{
+.list-item-sidebar{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     border-radius: 10px;
     margin-bottom: 10%;
     padding: 5% 2%;
 }
-.box-item{
+.box-tiem-sidebar{
     display: flex;
     margin-top: 7%;
     padding-left: 10%;
     padding-right: 8%;
 }
-.header-list{
+.header-list-sidebar{
     padding-top: 5%;
     padding-left: 10%;
 }
-.img-item{
-    background-color: green;
+.img-item-sidebar{
     width: 16%;
 }
-.link-item{
+.link-item-sidebar{
     display: flex;
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 } 
-.text-item{
+.text-item-sidebar{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     padding-top: 3%;
