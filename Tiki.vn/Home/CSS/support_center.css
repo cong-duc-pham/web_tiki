@@ -1,10 +1,11 @@
 .total{
     background-color: #f5f5fa;
-    margin-left: 26%;
+    /* margin-left: 26%; */
     margin-right: 9.6%;
 }
 .Content{
     background-color: white;
+    border-radius: 20px;
 }
 .title{
     margin-left: 15px;
@@ -36,11 +37,11 @@
     text-align: center;
 }
 .phone{
-    color: rgb(71, 71, 244);
+    color: #0A68FF;
     font-size: 30px;
     padding-top: 10px;
 }
-.text{
+.text-left{
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
 }
@@ -133,4 +134,8 @@
 }
 .information{
     margin-top: 30px;
+}
+.all{
+    display: flex;
+    background-color: #f5f5fa;
 }
