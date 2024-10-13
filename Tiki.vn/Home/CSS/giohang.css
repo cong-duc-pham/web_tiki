@@ -1,4 +1,15 @@
 .box-shopping-cart{
+    width: 100%;
+}
+
+.grid{
+    background-color: #F5F5FA;
+    width: 1260px;
+    margin: auto;
+}
+
+
+.box-shopping-cart{
     background-color: #f7f7f7;
 
 }
