@@ -34,7 +34,7 @@ body{
     position: relative;
     width: 8%;
     text-align: center;
-    margin-left: 16%;
+    margin-left: 13%;
 }
 .home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
     width: 85%;
@@ -43,11 +43,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #0d48a6;
 }
-
 /* Thanh tìm kiếm */
 .container-search{
     width: 80%;
-    height: 90%;
 }
 .icon-search{     /* kich thuoc icon search */
     padding-top: 1%;
@@ -79,13 +77,13 @@ body{
     margin-left: 1%;
     position: absolute;
     display: flex;
-    width: 69%;
+    width: 70%;
     height: 4%;
     margin-top: 15px;
 }
 .search{ /*chieu dai cua thanh tim kiem*/
     display: flex;
-    width: 68%;
+    width: 66%;
     height: 120%;
     border: solid 0.5px rgb(224, 224, 224);
     border-radius: 10px;
@@ -165,29 +163,31 @@ body{
     position: absolute;
     display: flex;
     margin-top: 3.5%;
-    width: 90%;
+    width: 100%;
 }
 .list-recommend{
-    width: 200%;
+    width: 60%;
     height: 5%;
 }
 .link-recommend{
+    width: 60%;
+    height: 30px;
     text-decoration: none;
     color: gray;
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 90%;
     padding-left: 1%;
-    height: 30px;
 }
 .location{
     display: flex;
-    width: 200%;
-    padding-left: 10%;
+    width: 500px;
+    height: 40px;
+    margin-left: 20%;
     color: black;
 }
 .img-location{
-    width:30px;
-    height: 25px;
+    width:22px;
+    height: 22px;
     text-decoration: underline;
     color: black;
 }
@@ -195,6 +195,8 @@ body{
     color: gray;
 }
 .link-address{
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 /* commit */
@@ -209,6 +211,10 @@ body{
 .list-commit{
     margin-left: 3%;
     border-left: solid grey 0.5px ;
+    padding-left: 20px;
+}
+.list-commit-first{
+    margin-left: 3%;
     padding-left: 20px;
 }
 .img-commit{
@@ -226,30 +232,28 @@ main{
     border: dotted;
     margin-left: 1%;
     background-color: blueviolet;
-    padding: 1%;
+    padding: 0.5%;
     
-}
-.side{
-    display: flex;
 }
 .main-display{
     background-color: aquamarine;
 }
-/* .list-slide{
+.side{
+    width: 110px;
+    height: 300px;
     display: flex;
-    width: 50%;
-    height: 70%;
-    background-color: #16b365;
-} */
+}
 .img-slide{
-    width: 49%;
+    width: 550px;
+    height: 300px;
     border-radius: 3%; 
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .slide-items{
     display: flex;
-    padding: 2%;
-    background-color: white;
+    height: 300px;
+    border: dotted;
+    background-color: rgb(243, 0, 0);
     border-radius: 20px;
 }
 .list-event{
@@ -275,57 +279,117 @@ main{
     font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* muc top-deal */
-.text-top-deal{
+.text-top-deal{/* muc top-deal */
     left: 0;
     color: #db424d;
 }
 .list-top-deal{
     border: dotted;
-    background-color: #554142;
-    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
     margin-top: 2%;
     padding: 1%;
 }
-.header-top-deal{
-    background-color: #16b365;
-}
 .list-box{
-    margin-top: 2%;
+    display: flex;
+    margin-top: 1%;
 }
 .box{
-    background-color: cadetblue;
-    border: dotted;
-    width: 19%;
-    height: 410px;
+    background-color: white;
+    margin-left: 0.5%;
+    border: solid 0.5px #dadada;
+    border-radius: 5%;
+    width: 180px;
+    height: 350px;
+}
+.link-box-item{
+    text-decoration: none;
 }
 .img-of-box{
-    float: left;
-    background-color: red;
-    height: 45%;
+    height: 49%;
+}
+.div-info{
+    height: 50%;
+    margin-left: 2%;
+}
+.icon-star-feedback{
+    display: flex;
+}
+.icon-star-rate{
+    width: 15px;
+}
+.info-item{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    height: 65px;
+}
+.description-item{
+    height: 100%;
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 1.6rem;
+}
+.cost-item{
+    height: 35%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sale-off-item{
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    font-size: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.cost-item-after{
+    color: #ff5762;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cost-item-before{
+    font-size: 85%;
+    color: #acaaaa;
 }
 .some-img-of-box{
+    border-radius: 10px;
     position: absolute;
-    float: left;
-    width: 11%;
+    width: 175px;
+    height: 171px;
 }
 .info-of-box{
-    position: absolute;
-    background-color: yellow;
-}
-.now-of-box{
-    background-color: red;
     position: absolute;
 }
 .img-top-deal{
     width: 20%;
-    background-color: yellow;
 }.link-top-deal{
     color: #0071ff;
+    margin-top: 1%;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
+}
+.logo-now{
+    display: flex;
+    margin-left: 1%;
+}
+hr{
+    color: rgb(247, 247, 247);
+}
+.img-logo-now{
+    width: 35px;
+}
+.text-logo-now{
+    font-size: 75%;
+    font-size: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: 3%;
 }
 .plash-sale{
 
@@ -344,9 +408,7 @@ main{
 }
 .recommend-today{
 }
-/* foooter*/
-.style-footer{
-    display: flex;
+.style-footer{/* foooter*/
     background-color: white;
     margin-top:1.5%;
 }
