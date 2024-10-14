@@ -12,8 +12,8 @@
     padding-top: 10px;
 }
 .left-anno{
-    width: 26%;
-    /* padding-left: 10%; */
+    width: 21%;
+    font-family: Inter, Helvetica, Arial, sans-serif;
 }
 .avatar-anno{
     border: 900px ;
@@ -39,17 +39,16 @@
     padding-left: 25px;
 }
 .ID-anno{
-    width: 1300px;
+    width: 1185px;
     margin: auto;
     background-color: #f5f5fa;
     display: flex;
-    justify-content: space-between;
 }
 .size-color-icon-anno{
     width: 12%;
 }
 .right-anno{
-    /* padding-top: 60px; */
+     padding-top: 60px; 
     width: 72%;
 }
 .form-anno{
@@ -79,28 +78,58 @@
 }
 
 .button-icon-anno{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 30px;
+
 }
 
 .button-icon-anno i{
+    font-size: 30px;
+    color: #666666;
+}
+
+.button-icon-anno button{
     padding: 0px 20px;
+    background-color: white;
+    border: none;
 }
 
 .notification-content img{
-    height: 160px;
-    width: 160px;
+    width: 180px;
+}
+
+.notification-content p{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 15px;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+.notification-content button{
+    font-size: 15px;
+    padding: 10px 25px;
+    background-color: #FDD835;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:active {
+    text-decoration: underline;
 }
 
 .notification-content {
     width: 100%;
     height: 100%;
-    align-content: center;
+    padding-top: 20%;
     text-align:center;
 }
 
 .content-box-announcement{
-    
+    border-top: solid 1px #F5F5FA;
     width: 100%;
     height: 100%;
+}
+
+.footer-box{
+    width: 1260px;
+    margin: auto;
 }
