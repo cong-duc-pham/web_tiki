@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/footer.css">
+    <link rel="stylesheet" href="/Tiki.vn/Home/fontawesome-free-6.6.0/css/all.min.css">
 </head>
 <body>
     <div class="freeship">
@@ -22,7 +23,7 @@
             <div class="home-logo">
                 <div>
                     <img id="logo" src="/Tiki.vn/Home/IMG/img-header-footer/Logo_Tiki_2023.png" alt="Home">
-                    <div><span id="text"><b >Tốt & Nhanh</b></span></div>
+                    <div><span id="text"><b >Tốt & Nhanh</b></span></div> 
                 </div>
             </div>
             <div class="container-search">
@@ -37,11 +38,27 @@
                         <div class="shortcut-home">
                             <img class="icon-home" src="https://salt.tikicdn.com/ts/upload/b4/90/74/6baaecfa664314469ab50758e5ee46ca.png
                             " alt="shortcut-home">
-                            <a class="link-shortcut-home" href="trangchu.com">Trang chủ</a>
+                            <a class="link-shortcut-home" href="/Tiki.vn/Home/HTML/index.html">Trang chủ</a>
                         </div>
                         <div class="shortcut-user">
-                            <img class="icon-user" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="shortcut-user">
-                            <a class="link-shortcut-user" href="taikhoan.com">Tài khoản</a>
+                            <a class="link-shortcut-user" href="/Tiki.vn/Home/HTML/account.html">
+                                <img class="icon-user" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="shortcut-user">
+                                <span>Tài khoản</span>
+                            </a>
+                            <div class="list-shortcut-user">
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/account.html"><span >Thông tin tài khoản</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/giohang.html" href=""><span>Đơn hàng của tôi</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/support_center.html" href=""><span>Thông tin hỗ trợ</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="" href=""><span>Đăng xuât</span><br></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="shortcut-shoppingcart">
                             <img class="icon-card" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="">
@@ -70,14 +87,17 @@
                 </div>
             </div>
     </header>
-    <hr>
     <div class="commit"> <!--thanh cam ket-->
-        <div class="list-commit">
+        <div class="header-list-commit">
             <span><b>Cam kết</b></span>
         </div>
-        <div class="list-commit">
+        <div class="first-list-commit">
             <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_hang_that.png" alt="hang_that.png">
-            <span>100% hàng thật</span>
+            <span class="text-list-commit">100% hàng thật</span>
+        </div>
+        <div class="list-commit">
+            <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_freeship.png" alt="freeship.png">
+            <span>Freeship mọi đơn</span>
         </div>
         <div class="list-commit">
             <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_hoan_hang.png" alt="_hoan_hang.png">
@@ -88,15 +108,14 @@
             <span>30 ngày đổi trả</span>
         </div>
         <div class="list-commit">
+            <img  class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_giao_nhanh.png" alt="gia_sieu_re.png">
+            <span>Giao nhanh 2h</span>
+        </div>
+        <div class="list-commit">
             <img  class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_gia_sieu_re.png" alt="gia_sieu_re.png">
             <span>Giá siêu rẻ</span>
         </div>
-        <div class="list-commit">
-            <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_freeship.png" alt="freeship.png">
-            <span>Freeship mọi đơn</span>
-        </div>
     </div>
-    <hr>
     <main class="style-main"><!---->
         <div class="sidebar"> <!--sidebar-->
             <div class="style-sidebar">
@@ -104,138 +123,138 @@
                     <div class="header-list-sidebar">
                         <span><b>Danh mục</b></span>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/nha-sach-tiki/c8322">
                             <img class="img-item-sidebar" src="/Tiki.vn/Home/IMG/img-danh-muc/nha_sach.webp" alt="Nha sach Tiki">
                             <span class="text-item-sidebar">Nhà sách Tiki</span>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/nha-cua-doi-song/c1883">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/nha_cua__doi_song.webp" alt="nha_cua__doi_song.webp">
                             <span class="text-item-sidebar">Nhà Cửa - Đời Sống</span>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/dien-thoai-may-tinh-bang/c1789">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/dt_mtbang.webp" alt="dt_mtbang.webp">
                             <div><span class="text-item-sidebar">Điện Thoại - Máy Tính Bảng</span></div>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/do-choi-me-be/c2549">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/do_choi_me&be.webp" alt="do_choi_me&be.webp">
                             <span class="text-item-sidebar">Đò chơi - Mẹ & Bé</span>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/thiet-bi-kts-phu-kien-so/c1815">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/thiet_bi_so__phu_kien_so.webp" alt="thiet_bi_so__phu_kien_so.webp">
                             <span class="text-item-sidebar">Thiết Bị Số - Phụ Kiện Số</span>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/dien-gia-dung/c1882">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/dien_gia_dung.webp" alt="dien_gia_dung.webp">
                             <span class="text-item-sidebar">Điện Gia Dụng</span>
                         </a>
                     </div>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/lam-dep-suc-khoe/c1520">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/lam_dep__suc_khoe.webp" alt="lam_dep__suc_khoe.webp">
                             <span class="text-item-sidebar">Làm Đẹp - Sức Khỏe</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/o-to-xe-may-xe-dap/c8594">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/o_to__xe_may__xe_dap.webp" alt="o_to__xe_may__xe_dap.webp">
                             <span class="text-item-sidebar">Ô Tô - Xe Máy - Xe Đạp</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/thoi-trang-nu/c931">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/thoi_trang_nu.webp" alt="thoi_trang_nu.webp">
                             <span class="text-item-sidebar">Thời Trang Nữ</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/bach-hoa-online/c4384">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/bach_hoa_onl.webp" alt="bach_hoa_onl.webp">
                         `   <span class="text-item-sidebar">Bách Hóa Online</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/the-thao-da-ngoai/c1975">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/the_thao__gia_ngoai.webp" alt="the_thao__gia_ngoai.webp">
                             <span class="text-item-sidebar">Thể Thao - Dã Ngoại</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/thoi-trang-nam/c915">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/thoi_trang_nam.webp" alt="thoi_trang_nam.webp">
                             <span class="text-item-sidebar">Thời Trang Nam</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/cross-border-hang-quoc-te/c17166">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/cross_border.webp" alt="cross_border.webp">
                             <span class="text-item-sidebar">Cros Border - Hàng Quốc Tế</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/laptop-may-vi-tinh-linh-kien/c1846">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/laptop__MT__Linh_kien.webp" alt="laptop__MT__Linh_kien.webp">
                             <span class="text-item-sidebar">Laptop- Máy Vi Tính -  Linh Kiện</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/giay-dep-nam/c1686">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/giay_dep_nam.webp" alt="giay_dep_nam.webp">
                             <span class="text-item-sidebar">Giày - dép Nam</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/dien-tu-dien-lanh/c4221">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/dien_tu__dien_lanh.webp" alt="dien_tu__dien_lanh.webp">
                             <span class="text-item-sidebar">Điện tử - Điện lạnh</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/giay-dep-nu/c1703">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/giay__dep_nu.webp" alt="giay__dep_nu.webp">
                             <span class="text-item-sidebar">Giày - Dép nữ</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/giay-dep-nu/c1703">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/may_anh__may_quay_film.webp" alt="may_anh__may_quay_film.webp">
                             <span class="text-item-sidebar">Máy Ảnh -  Máy quay Phim</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a  class="link-item-sidebar" href="https://tiki.vn/phu-kien-thoi-trang/c27498">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/phu_kien_thoi_trang.webp" alt="phu_kien_thoi_trang.webp">
                             <span class="text-item-sidebar">Phụ Kiện Thời Trang</span></div>
                         </a>
-                    <div class="box-tiem-sidebar" >
+                    <div class="box-item-sidebar" >
                         <a class="link-item-sidebar"  href="https://tiki.vn/ngon/c44792">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/NGON.webp" alt="NGON.webp">
                             <span class="text-item-sidebar">NGON</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/dong-ho-va-trang-suc/c8371">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/Dong_ho_va_trang_suc.webp" alt="Dong_ho_va_trang_suc.webp">
                             <span class="text-item-sidebar">Đồng hồ và Trang sức</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/balo-va-vali/c6000">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/balo_va_vali.webp" alt="img-danh-muc/balo_va_vali.webp">
                             <span class="text-item-sidebar">Balo và Vali</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/voucher-dich-vu/c11312">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/voucher_dich_vu.webp" alt="voucher_dich_vu.webp">
                             <span class="text-item-sidebar">Voucher - Dịch vụ</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/tui-vi-nu/c976">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/tui_nu.webp" alt="tui_nu.webp">
                             <span class="text-item-sidebar">Túi thời trang nữ</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/tui-thoi-trang-nam/c27616">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/tui_nam.webp" alt="tui_nam.webp">
                             <span class="text-item-sidebar">Túi thời trang nam</span></div>
                         </a>
-                    <div class="box-tiem-sidebar">
+                    <div class="box-item-sidebar">
                         <a class="link-item-sidebar"  href="https://tiki.vn/cham-soc-nha-cua/c15078">
                             <img class="img-item-sidebar"  src="/Tiki.vn/Home/IMG/img-danh-muc/cham_soc_nha_cua.svg" alt="">
                             <span class="text-item-sidebar">Chăm sóc nhà cửa</span></div>
@@ -246,19 +265,19 @@
                         <div class="header-list">
                             <span><b>Tiện ích</b></span>
                         </div>
-                        <div class="box-tiem-sidebar">
+                        <div class="box-item-sidebar">
                             <a class="link-item-sidebar" href="https://tiki.vn/khuyen-mai/uu-dai-doi-tac?src=top_desktop_icon">
                                 <img  class="img-item-sidebar" src="/Tiki.vn/Home/IMG/img-danh-muc/uu_dai_the_vi.webp" alt="uu_dai_the_vi.webp">
                                 <span class="text-item-sidebar">Ưa đãi thẻ, ví</span>
                             </a>
                         </div>
-                        <div class="box-tiem-sidebar">
+                        <div class="box-item-sidebar">
                             <a class="link-item-sidebar"  href="https://tiki.vn/san-pham-so?src=top_desktop_icon">
                                 <img  class="img-item-sidebar" src="/Tiki.vn/Home/IMG/img-danh-muc/dong_tien_nap_the.webp" alt="dong_tien_nap_the.webp">
                                 <span class="text-item-sidebar">Đóng tiền, nạp thẻ</span>
                             </a>
                         </div>
-                        <div class="box-tiem-sidebar">
+                        <div class="box-item-sidebar">
                             <a class="link-item-sidebar"  href="https://tiki.vn/mua-truoc-tra-sau/?src=top_desktop_icon">
                                 <img  class="img-item-sidebar" src="/Tiki.vn/Home/IMG/img-danh-muc/mua_truoc_tra_sau.webp" alt="mua_truoc_tra_sau.webp">
                                 <span class="text-item-sidebar">Mua trước trả sau</span>
@@ -276,32 +295,42 @@
                 </div>
             </div>
         </div>
-
         <div class="container-main">
             <div class="main-display">
-                <div class="slide-items">
-                    <div class="side">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/tikinow.webp" alt="tikinow.webp">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/nha_cua_doi_song.webp" alt="nha_cua_doi_song.webp">
+                <div class="slides-show">
+                    <div class="slide-items">
+                        <div class="block-slide-items">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/tikinow.webp" alt="tikinow.webp">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/nha_cua_doi_song.webp" alt="nha_cua_doi_song.web">
+                        </div>
+                        <div class="block-slide-items">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/Cung_me_cham_be.webp" alt="Cung_me_cham_be.webp">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/mot_sach_tiki.webp" alt="mot_sach_tiki.webp">
+                        </div>
+                        <div class="block-slide-items">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/Thiet_bi_cong_nghe.webp" alt="Thiet_bi_cong_nghe.webp">
+                            <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/sieu_hoi_lam_dep.webp" alt="sieu_hoi_lam_dep.webp">
+                        </div>
                     </div>
-                    <!--<div class="side">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/tikinow.webp" alt="tikinow.webp">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/nha_cua_doi_song.webp" alt="nha_cua_doi_song.webp">
-                    </div>
-                    <div class="side">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/tikinow.webp" alt="tikinow.webp">
-                        <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/nha_cua_doi_song.webp" alt="nha_cua_doi_song.webp">
-                    </div>-->
                 </div>
-
-
+                <div class="buttons-slide">
+                    <button id="prev"><</button>
+                    <button id="next">></button>
+                </div>
+                <ul class="dots">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
                 <!--
                 <span class="side">
                     <div class="list-slide">
                         <img class="img-slide" src="/Tiki.vn/Home/IMG/img-main/tikinow.webp" alt="tikinow.webp">
                         
                     </div>
-                    <!--<div class="list-slide">
+                    <div class="list-slide">
                         <img src="/Tiki.vn/Home/IMG/img-main/Cung_me_cham_be.webp" alt="Cung_me_cham_be.webp">
                         <img src="/Tiki.vn/Home/IMG/img-main/mot_sach_tiki.webp" alt="mot_sach_tiki.webp">
                     </div>
@@ -312,7 +341,7 @@
                 </span>
                 </div>-->
             
-                <div class="list-event">
+                <div class="list-event"> <!--Muc cac su kien -->
                     <div class="event">
                         <div class="box-icon-event">
                             <img class="img-icon-event" src="/Tiki.vn/Home/IMG/img-event-main/top_deal.png" alt="top_deal.png">
@@ -397,7 +426,7 @@
                 <div class="list-top-deal"><!--muc top deal-->
                     <div class="header-top-deal">
                         <img class="img-top-deal" src="/Tiki.vn/Home/IMG/img-top-deal-main/like-top-deal.png" alt="like-top-deal.png">
-                        <a class="link-top-deal" href="https://tiki.vn/khuyen-mai/hero-top-san-pham-ban-chay">Xem tất cả</a>
+                        <a class="link-all-item" href="https://tiki.vn/khuyen-mai/hero-top-san-pham-ban-chay">Xem tất cả</a>
                     </div>
                     <div class="list-box">
                         <div class="box">
@@ -425,7 +454,7 @@
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
                                     </div>
                                 </div>
@@ -457,7 +486,7 @@
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
                                     </div>
                                 </div>
@@ -489,8 +518,8 @@
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
-                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/img-tomorow.png" alt="now.png">
+                                        <span class="text-logo-now">Giao sáng thứ 2</span>
                                     </div>
                                 </div>
                             </a>
@@ -521,39 +550,34 @@
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="box">
-                            <a class="link-box-item" href="https://tiki.vn/apple-iphone-13-hang-chinh-hang-p184059211.html?spid=168778791">
+                            <a class="link-box-item" href="https://tiki.vn/may-ep-cha-m-sunhouse-mama-shd5515-600ml-hang-chinh-hang-p270243031.html?spid=270243032">
                                 <div class="img-of-box">
-                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/apple-iphone-13.webp" alt="apple-iphone-13.webp">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/may-ep-cham-sunhouse.webp" alt="may-ep-cham-sunhouse.webp">
                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
                                     
                                 </div>
                                 <div class="div-info">
                                     <div class="info-item">
-                                        <span class="description-item">Apple iPhone 13</span>
+                                        <span class="description-item">Sản phẩm hot tháng 10</span>
                                         <div class="icon-star-feedback">
-                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
-                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
-                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
-                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
                                         </div>
                                     </div>
                                     <div class="cost-item">
-                                        <span class="cost-item-after">13.250.000 <sup>đ</sup></span>
-                                        <br><span class="sale-off-item">-47%</span>
-                                        <del class="cost-item-before"><sup class="cost-item-before">24.990.000</sup><sup>đ</sup></del>
-                                        
+                                        <span class="cost-item-after">28.625<sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-99%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">2.862.005 </sup><sup>đ</sup></del>
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
                                     </div>
                                 </div>
@@ -585,7 +609,7 @@
                                     </div>
                                     <hr>
                                     <div class="logo-now">
-                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-top-deal-main/now.png" alt="now.png">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
                                     </div>
                                 </div>
@@ -593,24 +617,779 @@
                         </div>
                     </div>
                 </div>
-                <div class="plash-sale">
-                    
+                <div class="item-your-care"><!--muc san pham ban quan tam-->
+                   <div class="header-your-care">
+                        <b class="text-header-your-care">Sản phẩm bạn quan tâm</b>
+                    </div>
+                    <div class="list-box">
+                        <div class="box">
+                            <a class="link-box-item" href="https://tiki.vn/thay-doi-ti-hon-hieu-qua-bat-ngo-atomic-habits-tai-ban-lan-4-p170708233.html?spid=170708234">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/thay-doi-ty-hon.webp" alt="thay-doi-ty-hon.webp">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Thay Đổi Tí Hon - Hiệu Quả Bất Ngờ Atomic Habits (Tái Bản Lần 4)</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">134.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-29%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">189.000</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a class="link-box-item" href="https://tiki.vn/dien-thoai-xiaomi-redmi-note-12-8gb-128gb-hang-chinh-hang-p271046571.html?spid=271046582">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/dien-thoai-xiaomi-note12.webp" alt="">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                    
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Điện thoại Xiaomi Redmi Note 12 (8GB/128GB) - Hàng chính hãng</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">3.650.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-19%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">4.530.000</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a class="link-box-item" href="https://tiki.vn/ban-do-ve-y-thuc-giai-ma-truong-nang-luong-khai-pha-suc-manh-phi-thuong-trong-con-nguoi-ban-p252098916.html?spid=271497013">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/binh-giu-nhiet-look-n-look.webp" alt="binh-giu-nhiet-look-n-look.webp">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                    
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Bình Giữ Nhiệt Lock&Lock Energetic One-Touch Tumbler LHC3249 - 550ML</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">242.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-54%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">528.000</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a class="link-box-item" href="https://tiki.vn/apple-iphone-13-hang-chinh-hang-p184059211.html?spid=168778791">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/apple-iphone-13.webp" alt="apple-iphone-13.webp">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Apple iPhone 13</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">13.250.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-47%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">24.990.000</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a class="link-box-item" href="https://tiki.vn/apple-iphone-13-hang-chinh-hang-p184059211.html?spid=168778791">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/apple-iphone-13.webp" alt="apple-iphone-13.webp">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                    
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Apple iPhone 13</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">13.250.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-47%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">24.990.000</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <a class="link-box-item" href=https://tiki.vn/ta-bim-quan-huggies-skin-care-mega-jumbo-l96-8-mieng-voi-tram-tra-diu-da-p275220814.html?spid=275220815"">
+                                <div class="img-of-box">
+                                    <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/ta_bim-quan-hugges.webp" alt="ta_bim-quan-hugges.webp">
+                                    <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                    
+                                </div>
+                                <div class="div-info">
+                                    <div class="info-item">
+                                        <span class="description-item">Tã/bỉm quần Huggies Skin Care Mega Jumbo L96+8 miếng với tràm trà dịu da</span>
+                                        <div class="icon-star-feedback">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                            <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                        </div>
+                                    </div>
+                                    <div class="cost-item">
+                                        <span class="cost-item-after">363.000 <sup>đ</sup></span>
+                                        <br><span class="sale-off-item">-44%</span>
+                                        <del class="cost-item-before"><sup class="cost-item-before">645.750</sup><sup>đ</sup></del>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="logo-now">
+                                        <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                        <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="prominent-brand">
-                    
+                <div class="plash-sale"> <!--Muc flash sale-->
+                    <div class="header-flash-sale">
+                        <b class="text-header-flash-sale">Flash Sale</b>
+                        <span class="item-flash-sale">01</span>
+                        <span class="symbor-item">:</span>
+                        <span class="item-flash-sale">10</span>
+                        <span class="symbor-item">:</span>
+                        <span class="item-flash-sale">23</span>
+                        <a class="link-all-item" href="https://tiki.vn/khuyen-mai/hero-top-san-pham-ban-chay">Xem tất cả</a>
+                    </div><div class="list-box-flash-sale">
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-82%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG/img-flash-sale/kiep-nguoi.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>14.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">##########</span>
+                                    <span class="content-remaining-products">Đã bán 2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-79%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG//img-flash-sale/ro-may.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>16.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">####</span>
+                                    <span class="content-remaining-products">Vừa mở bán</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-78%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG/img-flash-sale/tui-dung-my-pham.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>14.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">
+                                        <img class="icon-fire" src="/Tiki.vn/Home/IMG/img-flash-sale/fire_icon.svg" alt="">
+                                        ###########
+                                    </span>
+                                    <span class="content-remaining-products">Đã bán 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-90%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG/img-flash-sale/day-dan-tien-loi-velcro.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>14.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">##</span>
+                                    <span class="content-remaining-products">Vừa mở bán</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-53%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG/img-flash-sale/khau-trang-unicharm.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>14.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">#################</span>
+                                    <span class="content-remaining-products">Vừa mở bán</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-flash-sale">
+                            <div class="img-box-FS">
+                                <div class="number-sale-off">
+                                    <span>-65%</span>
+                                </div>
+                                <img class="img-sale-off" src="/Tiki.vn/Home/IMG/img-flash-sale/bong-tay-trang-bach-tuyet.webp" alt="">
+                            </div>
+                            <div class="content-box-FS">
+                                <div class="cost-sale-off">
+                                    <span>14.000</span><sup><u>đ</u></sup>
+                                </div>
+                                <div class="remaining-products">
+                                    <span class="level-remaining">
+                                        <img class="icon-fire" src="/Tiki.vn/Home/IMG/img-flash-sale/fire_icon.svg" alt="">
+                                        ##################
+                                    </span>
+                                    <span class="content-remaining-products">Vừa mở bán</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="items-foreign">
-                    
+                <div class="prominent-brand-items"> <!--Muc san thuong hieu noi bat-->
+                        <div class="list-brand">
+                            <div class="header-list-prominent-brand">
+                                <b>Thương hiệu nổi bật</b>
+                            </div>
+                            <div class="list-prominent-brand-items">
+                                <div class="first-items-prominent-brand">
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/cham-da-cham-toc.png" alt="cham-da-cham-toc.png">
+                                    </div>
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/don-cho-sieu-sale-ho[-qua-bi-mat.jpg" alt="don-cho-sieu-sale-ho[-qua-bi-mat.jpg">
+                                    </div>
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/tu-sach-doanh-nhan.jpg" alt="tu-sach-doanh-nhan.jpg">
+                                    </div>
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/qua-tang-suc-khoe.jpg" alt="qua-tang-suc-khoe.jpg">
+                                    </div>
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/sam-sua-bep-xinh.jpg" alt="sam-sua-bep-xinh.jpg">
+                                    </div>
+                                    <div class="box-img-brand">
+                                        <img class="img-brand" src="/Tiki.vn/Home/IMG/img-brand-prominent/dung-cu-tien-ich.jpg" alt="dung-cu-tien-ich.jpg">
+                                    </div>
+                                </div>
+                                <div class="list-second">
+    
+                                </div>
+                                <div class="list-third">
+    
+                                </div>
+                            </div>
+                        </div>
                 </div>
-                <div class="items-recommend">
-                    
+                <div class="items-foreign"><!--muc hang ngoai gia hot-->
+                    <div class="header-items-foreign">
+                        <b class="text-header-items-foreign">Hàng ngoại giá hot</b>
+                        <a class="link-all-item" href="https://tiki.vn/khuyen-mai/hang-nhap-khau-chinh-hang">Xem tất cả</a>
+                    </div>
+                    <div class="list-items-foreign">
+                        <div class="first-list-items-foreign">
+                            <div class="list-box">
+                                <div class="box">
+                                    <a class="link-box-item" href="https://tiki.vn/thay-doi-ti-hon-hieu-qua-bat-ngo-atomic-habits-tai-ban-lan-4-p170708233.html?spid=170708234">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/thay-doi-ty-hon.webp" alt="thay-doi-ty-hon.webp">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Thay Đổi Tí Hon - Hiệu Quả Bất Ngờ Atomic Habits (Tái Bản Lần 4)</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">134.000 <sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-29%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">189.000</sup><sup>đ</sup></del>
+                                                
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                                <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a class="link-box-item" href="https://tiki.vn/dien-thoai-xiaomi-redmi-note-12-8gb-128gb-hang-chinh-hang-p271046571.html?spid=271046582">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/dien-thoai-xiaomi-note12.webp" alt="">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                            
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Điện thoại Xiaomi Redmi Note 12 (8GB/128GB) - Hàng chính hãng</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">3.650.000 <sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-19%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">4.530.000</sup><sup>đ</sup></del>
+                                                
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                                <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a class="link-box-item" href="https://tiki.vn/ban-do-ve-y-thuc-giai-ma-truong-nang-luong-khai-pha-suc-manh-phi-thuong-trong-con-nguoi-ban-p252098916.html?spid=271497013">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/binh-giu-nhiet-look-n-look.webp" alt="binh-giu-nhiet-look-n-look.webp">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                            
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Bình Giữ Nhiệt Lock&Lock Energetic One-Touch Tumbler LHC3249 - 550ML</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">242.000 <sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-54%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">528.000</sup><sup>đ</sup></del>
+                                                
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/img-tomorow.png" alt="now.png">
+                                                <span class="text-logo-now">Giao sáng thứ 2</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a class="link-box-item" href="https://tiki.vn/may-ep-cha-m-sunhouse-mama-shd5515-600ml-hang-chinh-hang-p270243031.html?spid=270243032">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/may-ep-cham-sunhouse.webp" alt="may-ep-cham-sunhouse.webp">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                            
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Máy ép chậm Sunhouse Mama SHD5515 600ml - Hàng chính hãng</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">820.000 <sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-57%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">1.910.000</sup><sup>đ</sup></del>
+                                                
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                                <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a class="link-box-item" href="https://tiki.vn/may-ep-cha-m-sunhouse-mama-shd5515-600ml-hang-chinh-hang-p270243031.html?spid=270243032">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG//img-top-deal-main/may-doc-sach.webp" alt="may-ep-cham-sunhouse.webp">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                            
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Sản phẩm hot tháng 10</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">28.625<sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-99%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">2.862.005 </sup><sup>đ</sup></del>
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                                <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="box">
+                                    <a class="link-box-item" href=https://tiki.vn/ta-bim-quan-huggies-skin-care-mega-jumbo-l96-8-mieng-voi-tram-tra-diu-da-p275220814.html?spid=275220815"">
+                                        <div class="img-of-box">
+                                            <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/ta_bim-quan-hugges.webp" alt="ta_bim-quan-hugges.webp">
+                                            <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                            
+                                        </div>
+                                        <div class="div-info">
+                                            <div class="info-item">
+                                                <span class="description-item">Tã/bỉm quần Huggies Skin Care Mega Jumbo L96+8 miếng với tràm trà dịu da</span>
+                                                <div class="icon-star-feedback">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                    <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                                </div>
+                                            </div>
+                                            <div class="cost-item">
+                                                <span class="cost-item-after">363.000 <sup>đ</sup></span>
+                                                <br><span class="sale-off-item">-44%</span>
+                                                <del class="cost-item-before"><sup class="cost-item-before">645.750</sup><sup>đ</sup></del>
+                                                
+                                            </div>
+                                            <hr>
+                                            <div class="logo-now">
+                                                <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                                <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="second-list-items-foreign">
+
+                        </div>
+                        <div class="third-list-items-foreign">
+                            
+                        </div>
+                    </div>
                 </div>
-                <div class="maybe-you-like">
-                    
+                <div class="items-sale-off"> <!--San pham sale-->
+                    <div class="list-items-sale-off">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/xa-kho-tri-an.webp" alt="xa-kho-tri-an.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/giu-thang-sale-to.webp" alt="giu-thang-sale-to.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/cham-soc-suc-khoe.webp" alt="cham-soc-suc-khoe.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/az-vietnam.webp" alt="az-vietnam.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/cong-nghẻ-xu huong.webp" alt="cong-nghẻ-xu huong.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/duong-da-cuc-xin.webp" alt="duong-da-cuc-xin.webp">
+                    </div>
+                    <div class="list-items-sale-off">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/top-thuong-hieu.webp" alt="top-thuong-hieu.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/cham-nha-sach-mat.webp" alt="cham-nha-sach-mat.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/linh-dinh-dale-soc.webp" alt="linh-dinh-dale-soc.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/thuong-hieu-top-dau.webp" alt="thuong-hieu-top-dau.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/dung-ocb.webp" alt="dung-ocb.webp">
+                        <img class="item-sale-off" src="/Tiki.vn/Home/IMG/img-items-sale-off/home-paylater.webp" alt="home-paylater.webp">
+                    </div>
                 </div>
-                <div class="recommend-today">
-                    
-                </div>
+                <div class="maybe-your-like"><!--muc ban co the thich-->
+                    <div class="header-maybe-your-like">
+                         <b class="text-header-maybe-your-like">Bạn có thể thích</b>
+                     </div>
+                     <div class="list-box">
+                         <div class="box">
+                             <a class="link-box-item" href="https://tiki.vn/thay-doi-ti-hon-hieu-qua-bat-ngo-atomic-habits-tai-ban-lan-4-p170708233.html?spid=170708234">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/thay-doi-ty-hon.webp" alt="thay-doi-ty-hon.webp">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Thay Đổi Tí Hon - Hiệu Quả Bất Ngờ Atomic Habits (Tái Bản Lần 4)</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">134.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-29%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">189.000</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="box">
+                             <a class="link-box-item" href="https://tiki.vn/dien-thoai-xiaomi-redmi-note-12-8gb-128gb-hang-chinh-hang-p271046571.html?spid=271046582">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/dien-thoai-xiaomi-note12.webp" alt="">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                     
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Điện thoại Xiaomi Redmi Note 12 (8GB/128GB) - Hàng chính hãng</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                              <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">3.650.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-19%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">4.530.000</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="box">
+                             <a class="link-box-item" href="https://tiki.vn/ban-do-ve-y-thuc-giai-ma-truong-nang-luong-khai-pha-suc-manh-phi-thuong-trong-con-nguoi-ban-p252098916.html?spid=271497013">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/binh-giu-nhiet-look-n-look.webp" alt="binh-giu-nhiet-look-n-look.webp">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                     
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Bình Giữ Nhiệt Lock&Lock Energetic One-Touch Tumbler LHC3249 - 550ML</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">242.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-54%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">528.000</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="box">
+                             <a class="link-box-item" href="https://tiki.vn/apple-iphone-13-hang-chinh-hang-p184059211.html?spid=168778791">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/apple-iphone-13.webp" alt="apple-iphone-13.webp">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+ 
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Apple iPhone 13</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">13.250.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-47%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">24.990.000</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="box">
+                             <a class="link-box-item" href="https://tiki.vn/apple-iphone-13-hang-chinh-hang-p184059211.html?spid=168778791">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/apple-iphone-13.webp" alt="apple-iphone-13.webp">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                     
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Apple iPhone 13</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">13.250.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-47%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">24.990.000</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="box">
+                             <a class="link-box-item" href=https://tiki.vn/ta-bim-quan-huggies-skin-care-mega-jumbo-l96-8-mieng-voi-tram-tra-diu-da-p275220814.html?spid=275220815"">
+                                 <div class="img-of-box">
+                                     <img  class="some-img-of-box" src="/Tiki.vn/Home/IMG/img-top-deal-main/ta_bim-quan-hugges.webp" alt="ta_bim-quan-hugges.webp">
+                                     <img class="some-img-of-box"  src="/Tiki.vn/Home/IMG/img-top-deal-main/top-deal-chinh-hang.png" alt="top-deal-chinh-hang.png">
+                                     
+                                 </div>
+                                 <div class="div-info">
+                                     <div class="info-item">
+                                         <span class="description-item">Tã/bỉm quần Huggies Skin Care Mega Jumbo L96+8 miếng với tràm trà dịu da</span>
+                                         <div class="icon-star-feedback">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                             <img class="icon-star-rate" src="/Tiki.vn/Home/IMG/img-top-deal-main/icon-star.webp" alt="icon-star.webp">
+                                         </div>
+                                     </div>
+                                     <div class="cost-item">
+                                         <span class="cost-item-after">363.000 <sup>đ</sup></span>
+                                         <br><span class="sale-off-item">-44%</span>
+                                         <del class="cost-item-before"><sup class="cost-item-before">645.750</sup><sup>đ</sup></del>
+                                         
+                                     </div>
+                                     <hr>
+                                     <div class="logo-now">
+                                         <img class="img-logo-now" src="/Tiki.vn/Home/IMG/img-form-box/now.png" alt="now.png">
+                                         <span class="text-logo-now">Giao siêu tốc 2h</span>
+                                     </div>
+                                 </div>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
             </div>
             <footer class="style-footer"><!--Footer-->
                     <div class="footer-information">
@@ -660,27 +1439,26 @@
                                 <div class="heading-footer">
                                     <h3 class="text-block">Hợp tác và liên kết</h3>
                                 </div>
-                                    <div class="more-information"><a class="list-link" href="https://tiki.vn/quy-che-hoat-dong-sgdtmdt">Quy chế hoạt động Sàn GDTMĐT</a></div>
-                                    <div class="more-information"><a class="list-link"  href="https://tiki.vn/khuyen-mai/ban-hang-cung-tiki">Bán hàng cùng Tiki</a></div>
-                                    <h4 class="text-block">Chứng nhận bởi</h4>
-                                    <div class="logo-contact">
-                                        <div class="more-information">
-                                            <a href="https://hotro.tiki.vn/s/?_gl=1*khf19z*_gcl_aw*R0NMLjE3MjY3OTM1MzUuQ2p3S0NBandsNi0zQmhCV0Vpd0FwTjZfa3NFMUVsT1BSRzN3SDdFWHQxLUNjNVRjRWVoN1Q2S0N6OGNjdzVWUGlLSzdQNmM4ZUt3ZVZob0NqWFVRQXZEX0J3RQ..*_gcl_au*NjUyMTk1MTM2LjE3MjY3OTI0NDQ.*_ga*MTE1MTE1NTQ5My4xNzE0MjA3OTA4*_ga_S9GLR1RQFJ*MTcyNzg0MTc5MC4xMi4xLjE3Mjc4NDQwOTkuNjAuMC4w">
-                                                <img class="list-logo1" src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong-2.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="more-information">
-                                            <a href="http://online.gov.vn/Home/WebDetails/21193?AspxAutoDetectCookieSupport=1">
-                                                <img class="list-logo2" src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong.svg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="more-information">
-                                            <a href="https://www.dmca.com/Protection/Status.aspx?ID=388d758c-6722-4245-a2b0-1d2415e70127&refurl=https://tiki.vn/">
-                                                <img class="list-logo3" src="https://images.dmca.com/Badges/dmca_protected_sml_120y.png?ID=388d758c-6722-4245-a2b0-1d2415e70127" alt="">
-                                            </a>
-
-                                        </div>
+                                <div class="more-information"><a class="list-link" href="https://tiki.vn/quy-che-hoat-dong-sgdtmdt">Quy chế hoạt động Sàn GDTMĐT</a></div>
+                                <div class="more-information"><a class="list-link"  href="https://tiki.vn/khuyen-mai/ban-hang-cung-tiki">Bán hàng cùng Tiki</a></div>
+                                <h4 class="text-block">Chứng nhận bởi</h4>
+                                <div class="logo-contact">
+                                    <div class="more-information">
+                                        <a href="https://hotro.tiki.vn/s/?_gl=1*khf19z*_gcl_aw*R0NMLjE3MjY3OTM1MzUuQ2p3S0NBandsNi0zQmhCV0Vpd0FwTjZfa3NFMUVsT1BSRzN3SDdFWHQxLUNjNVRjRWVoN1Q2S0N6OGNjdzVWUGlLSzdQNmM4ZUt3ZVZob0NqWFVRQXZEX0J3RQ..*_gcl_au*NjUyMTk1MTM2LjE3MjY3OTI0NDQ.*_ga*MTE1MTE1NTQ5My4xNzE0MjA3OTA4*_ga_S9GLR1RQFJ*MTcyNzg0MTc5MC4xMi4xLjE3Mjc4NDQwOTkuNjAuMC4w">
+                                            <img class="list-logo1" src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong-2.png" alt="">
+                                        </a>
                                     </div>
+                                    <div class="more-information">
+                                        <a href="http://online.gov.vn/Home/WebDetails/21193?AspxAutoDetectCookieSupport=1">
+                                            <img class="list-logo2" src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/bo-cong-thuong.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="more-information">
+                                        <a href="https://www.dmca.com/Protection/Status.aspx?ID=388d758c-6722-4245-a2b0-1d2415e70127&refurl=https://tiki.vn/">
+                                            <img class="list-logo3" src="https://images.dmca.com/Badges/dmca_protected_sml_120y.png?ID=388d758c-6722-4245-a2b0-1d2415e70127" alt="">
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!--phuong thuc..-->
@@ -716,11 +1494,10 @@
                                 </div>
                                 <div class="GP-AS">
                                     <a href="https://apps.apple.com/vn/app/tiki-shopping-fast-shipping/id958100553">
-                                        <img class="icon-connect"  src="https://cdn.prod.website-files.com/60d438ba9c417a7c5544b599/60df5265787a00e19c6c48fa_Download_on_the_App_Store_Badge_VN_RGB_blk_100217-p-500.png
-                                        " alt="">
+                                        <img class="icon-connect"  src="/Tiki.vn/Home/IMG/img-header-footer/appstore.png" alt="appstore.pn">
                                     </a>
                                     <a href="https://play.google.com/store/apps/details?id=vn.tiki.app.tikiandroid&pli=1">
-                                        <img class="icon-connect"  src="https://cdn.prod.website-files.com/60d438ba9c417a7c5544b599/60df5265787a00e19c6c48fa_Download_on_the_App_Store_Badge_VN_RGB_blk_100217.png" alt="">
+                                        <img class="icon-connect"  src="/Tiki.vn/Home/IMG/img-header-footer/playstore.png" alt="playstore.png">
                                     </a>
                                 </div>
                             </div>
@@ -1323,4 +2100,5 @@
         </div>
     </main>
 </body>
+<script src="/Tiki.vn/Home/Js/index.js"></script>
 </html>
