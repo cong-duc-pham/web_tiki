@@ -1,0 +1,111 @@
+.overoll{
+    display: flex;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    margin-top: 7%;
+    margin-right: 20%;
+    position: relative;
+    z-index: 2;
+}
+.left{
+    margin-right: 20%;
+}
+.right{
+    background-color: white;
+    padding-left: 6%;
+    padding-right: 13%;
+    margin-bottom: 4px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img-tiki{
+    width: 190%;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius: 10px;
+}
+input {
+    height: 30px;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+}
+
+.name{
+    display: flex;
+}
+.big-title{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -10px;
+}
+.title{
+    margin-top: 30px;
+}
+.password{
+    display: flex;
+}
+.gmail{
+    display: flex;
+}
+.phone-number{
+    width: 400%;
+}
+.nation{
+    display: flex;
+}
+.select-nation{
+    margin-top: 24px;
+    margin-left: 103px;
+    height: 30px;
+    border-radius: 10px;
+    padding-right: 42px;
+    border: solid 1px gray;
+}
+.ip-name{
+    margin-left: 100px ;
+    border: solid 1px gray;
+}
+.ip-pass{
+    margin-left: 72px ;
+    border: solid 1px gray;
+}
+.ip-email{
+    margin-left: 105px ;
+    border: solid 1px gray;
+}
+.ip-pn{
+    margin-left: 35px;
+    border: solid 1px gray;
+}
+body{
+    background-image: url('/Tiki.vn/Home/IMG/img-signup_signin/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /*ngăn cuộn ngang*/
+    font-family: sans-serif;
+}
+.overlay {
+    position: absolute; /* Định vị tuyệt đối để phủ lên hình nền */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+    z-index: 1; /* Để lớp overlay nằm phía trên hình nền */
+}/*z-index dùng để xác định thứ tự xếp chồng*/
+.but{
+    text-align: center;
+    margin-top: 80px;
+}
+.style-button{
+    border-color: #1ba8ff;
+    background-color: #1ba8ff;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.disabled{
+    color: gray;
+}
