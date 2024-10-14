@@ -1,3 +1,225 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* dinh dang thanh freeship tren cung*/
+.freeship{
+    height: 50px;
+    background-color: #f0fef4;
+}
+.text{
+    padding-top: 0.9%;
+    font-family: arial;
+    font-size: 75%;
+    text-align: center;
+    color: #16b365;
+}
+#FS{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1670ff;
+    font-size: 110%;
+}
+#xtra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0daf5ed8;
+    font-size: 110%;
+}
+.container-menu{
+    display: flex;
+    height: 20%;
+}
+/* style header */
+.home-logo{  /* dinh dang div logo home */
+    position: relative;
+    width: 8%;
+    text-align: center;
+    margin-left: 13%;
+}
+.home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
+    width: 85%;
+}
+.home-logo #text{ /* dinh dang text cua logo home*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d48a6;
+}
+/* Thanh tìm kiếm */
+.container-search{
+    width: 80%;
+}
+.icon-search{     /* kich thuoc icon search */
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 2.5%;
+    height: 55%;
+}
+.input-search{
+    border: none;
+    width: 80%;
+}
+.button-search{  /* dinh dang nut tim kiem*/
+    width: 1%;
+    border: none;
+    background-color: white;
+    border-left: solid 0.4px rgb(224, 224, 224);
+    text-align: center;
+    padding-left: 2.5%;
+}
+.link-search{  /*dinh dang text cua nut search */
+    text-decoration: none;
+    text-align: center;
+    color: #1670ff;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+}
+.middle-container{  /* dinh dang div o tren*/
+    margin-left: 1%;
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 4%;
+    margin-top: 15px;
+}
+.search{ /*chieu dai cua thanh tim kiem*/
+    display: flex;
+    width: 66%;
+    height: 120%;
+    border: solid 0.5px rgb(224, 224, 224);
+    border-radius: 10px;
+}
+.menu-shortcut{  /* dinh dang div cua thanh chuc nang*/
+    display: flex;
+    margin-left: 1%;
+}
+.shortcut-home{ /*dinh dang chuc nang nut trang chu */
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    width: 150px;
+    padding: 2%;
+    margin-left: 10%;
+}
+.shortcut-home:hover{
+    background-color: #e0ecff;
+}
+.icon-home{  /* dinh dang icon home*/
+    width: 25%;
+    height: 130%;
+}
+.link-shortcut-home{  /* dinh dang text */ 
+    color: #0071ff;
+    text-align: justify;
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-user{ /*dinh dang nut tai khoan */
+    display: flex;
+    border: solid 0px;
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+}
+.icon-user{ /* dinh dang icon*/
+    width: 23%;
+    height: 120%;
+}
+.shortcut-user:hover{
+    background-color: #e5e5e5;
+}
+.link-shortcut-user{/* dinh dang text */ 
+    text-align: justify;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-shoppingcart{ /* dinh dang nut gio hang*/
+    border-radius: 10px;
+    margin-top: 1%;;
+    padding-left: 5px;
+    height: 90%;
+    display: flex;
+}
+.shortcut-shoppingcart:hover{
+    background-color: #e0ecff;
+}
+.icon-card{
+    width: 90%;
+}
+.number{
+    display: flex;
+    background-color: red;
+    border:5px solid red ;
+    border-radius: 200px;
+    width: 3%;
+    height: 10%;
+}
+/*bottom header*/
+.bottom-container{
+    position: absolute;
+    display: flex;
+    margin-top: 3.5%;
+    width: 100%;
+}
+.list-recommend{
+    width: 60%;
+    height: 5%;
+}
+.link-recommend{
+    width: 60%;
+    height: 30px;
+    text-decoration: none;
+    color: gray;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-left: 1%;
+}
+.location{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-left: 20%;
+    color: black;
+}
+.img-location{
+    width:22px;
+    height: 22px;
+    text-decoration: underline;
+    color: black;
+}
+.text-location{
+    color: gray;
+}
+.link-address{
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* commit */
+.commit{
+    font-size: 90%;
+    display: flex;
+    height: 5%;
+    width: 100%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list-commit{
+    margin-left: 3%;
+    border-left: solid grey 0.5px ;
+    padding-left: 20px;
+}
+.list-commit-first{
+    margin-left: 3%;
+    padding-left: 20px;
+}
+.img-commit{
+    width: 20px;
+}
 .address{
     color: gray;
 }
@@ -235,3 +457,243 @@
     margin-left: -35%;
     float: left;
 } */
+.style-footer{/* foooter*/
+    background-color: white;
+    margin-top:1.5%;
+}
+.footer-information{
+    display: flex;
+    margin-left: 165px;
+    width: 1530px;
+    height: 25%;
+}
+.style1{
+    border: dotted;
+    display: flex;
+    width: 60%;
+}
+.std-hotline{
+    color: black;
+}
+.block{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    width: 17.5%;
+    margin-left: 2%;
+}
+.more-information{
+    margin-top: 7%
+}
+.text-block{
+    font-size: 120%;
+}
+.list-link {
+    height: 150%;
+    color: gray;
+    text-decoration: none;
+}
+.email-hotline{
+    text-decoration: none;
+    color: gray;
+}
+.icon-connect{
+    display: flex;
+    width: 8%;
+}
+.img-tikinow{
+    width: 50%;
+}
+.logo-contact{
+    display: flex;
+}
+.list-logo1{
+    width: 40%;
+}
+.list-logo2{
+    width: 250%;
+    margin-left: -70px;
+}
+.list-logo3{
+    width: 80%;
+}
+.icon-install{
+    display: flex;
+}
+.logo-connect{
+    width: 14%;
+}
+.icon-connect{
+    width: 80%;
+}
+/* sidebar */
+.sidebar{
+    width: 85%;
+    margin-top: 1%;
+}
+.list-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 5% 2%;
+}
+.box-tiem-sidebar{
+    display: flex;
+    margin-top: 7%;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+.header-list-sidebar{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.img-item-sidebar{
+    width: 16%;
+}
+.link-item-sidebar{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.text-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.footer-after{
+    box-sizing: border-box;
+    border: solid 1px white;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    margin-left: 193px;
+}
+
+.hidden-block{
+    background-color: white;
+    width: 80%;
+   
+}
+
+.separator{
+    border-bottom: 1px solid #e0e0e0;
+    margin:0 0 ;
+    width: 1100px;
+    padding-bottom: 14px;
+}
+
+.hidden-block a{
+    font-size: 13px;
+    line-height: 14px;
+    text-decoration: none;
+    max-width: fit-content; 
+}
+
+.hidden-block span{
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(128,128,137);
+}
+
+.address p{
+    font-size: 12px;
+    margin: 0px 0px 10px;
+    color: rgb(128,128,137);
+}
+
+.address h1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+
+}
+
+.slogan h2{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 0px;
+    color: rgb(128, 128, 137);
+}
+
+.slogan h1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.prominent-brand h2{
+   font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+
+.hidden-block .changes-color a{
+    font-size: 12px;
+    color:rgb(128,128,137);
+}
+
+
+.slogan{
+    margin-bottom: 0px 0px 10px;
+}
+
+.create-product-column{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    width: fit-content;
+}
+
+.product-catalog h2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+ .types-of-products a{
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(128, 128, 137);
+    margin-bottom: 12px;
+    margin-top: 0px;
+}
+
+.title-product a{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: rgb(128, 128, 137);
+}
+
+.product-block {
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
+
+.title-product p{
+    font-size: 14px;
+    line-height: 2px;
+    font-weight: 500;
+    color: rgb(128, 128, 137);
+    margin: auto;
+}
+
+.product-column{
+    width: fit-content;
+}

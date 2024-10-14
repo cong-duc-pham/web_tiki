@@ -1,0 +1,103 @@
+body{
+    background-image: url('/Tiki.vn/Home/IMG/img-signup_signin/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /*ngăn cuộn ngang*/
+    font-family: sans-serif;
+   
+}
+.main{
+    z-index: 2;
+    padding-top: 40px;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    margin-top: 7%;
+    height: auto;
+    padding-bottom: 4%;
+    position: relative;
+}
+
+.tiki{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #1BA8FF;
+}
+.name{
+    text-align: center;
+    margin-top: 30px;
+    height: 20px;
+    
+}
+.password{
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+.ip{
+    padding: 15px 60px;
+    border-radius: 4px;
+    border: solid 1px gray;
+    text-align: center;
+}
+.style-radio{
+    margin-left: 80px;
+}
+.text-polecy{
+    margin-left: 10px;
+    font-size: 10px;
+}
+.SI-button{
+    text-align: center;
+    margin-top: 60px;
+}
+.style-button{
+    height: 40px;
+    width: 400px;
+    background-color: #1BA8FF;
+    border: solid 1px #1BA8FF;
+    border-radius: 5px;
+    color: white;
+}
+.overlay {
+    position: absolute; /* Định vị tuyệt đối để phủ lên hình nền */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+    z-index: 1; /* Để lớp overlay nằm phía trên hình nền */
+}/*z-index dùng để xác định thứ tự xếp chồng*/
+.other{
+    display: flex;
+}
+.f-pass{
+    font-size: small;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #1BA8FF;
+    text-decoration: none;
+}
+.si-sms{
+    margin-left: 320px;
+    font-size: small;
+    margin-top: 10px;
+    color: #1BA8FF;
+    text-decoration: none;
+}
+.Not-available{
+    text-align: center;
+    margin-top: 50px;
+    font-size: small;
+}
+.Register{
+    text-decoration: none;
+    color: #1BA8FF;
+}
