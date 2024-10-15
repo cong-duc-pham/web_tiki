@@ -96,7 +96,7 @@ body{
     border: solid 0px;
     border-radius: 10px;
     display: flex;
-    width: 150px;
+    width: 160px;
     padding: 2%;
     margin-left: 10%;
 }
@@ -104,27 +104,58 @@ body{
     background-color: #e0ecff;
 }
 .icon-home{  /* dinh dang icon home*/
-    width: 25%;
-    height: 130%;
+    width: 30px;
+    height: 30px;
 }
 .link-shortcut-home{  /* dinh dang text */ 
     color: #0071ff;
     text-align: justify;
     text-decoration: none;
+    margin-top: 5px;
     margin-left: 5%;
     font-size: 110%;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .shortcut-user{ /*dinh dang nut tai khoan */
-    display: flex;
     border: solid 0px;
     border-radius: 10px;
-    width: 50%;
+    width: 130px;
     padding: 2%;
 }
 .icon-user{ /* dinh dang icon*/
-    width: 23%;
-    height: 120%;
+    width: 23px;
+    height: 23px;
+}.list-shortcut-user{
+    position: relative;
+    z-index: 5;
+    background-color: white;
+    display: none;
+    color: black;
+    border: solid 1px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shortcut-user:hover .list-shortcut-user{
+    display: block;
+}
+.list-option{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.list-option:hover{
+    display: block;
+    background-color: rgb(156, 156, 156);
+    
+}
+.text-list-shorcut{
+    color: black;
+    width: 200px;
+    text-decoration: none;
 }
 .shortcut-user:hover{
     background-color: #e5e5e5;
@@ -169,6 +200,9 @@ body{
     width: 60%;
     height: 5%;
 }
+.address{
+    z-index: 3;
+}
 .link-recommend{
     width: 60%;
     height: 30px;
@@ -195,23 +229,37 @@ body{
     color: gray;
 }
 .link-address{
+    z-index: 1;
     font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
 /* commit */
 .commit{
+    border:solid 0.5px rgb(202, 201, 201);
     font-size: 90%;
     display: flex;
-    height: 5%;
-    width: 100%;
+    height: 7px;
+    padding-top: 0.5%;
+    padding-bottom: 1.3%;
     padding-left: 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.list-commit{
+.header-list-commit{
+    color: #0256bd;
     margin-left: 3%;
+    padding-left: 20px;
+}
+.first-list-commit{
+    padding-left: 20px;
+    font-size: 80%;
+}
+.list-commit{
+    height: 20px;
+    margin-left: 1%;
     border-left: solid grey 0.5px ;
     padding-left: 20px;
+    font-size: 80%;
 }
 .list-commit-first{
     margin-left: 3%;
@@ -220,8 +268,58 @@ body{
 .img-commit{
     width: 20px;
 }
-/* Main */
-main{
+#icon-commit{
+    color: #0071ff;
+}
+.sidebar{/* sidebar */
+    height: 160vh;
+    overflow:hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-top: 1%;
+}
+.sidebar:hover{
+    overflow-y: auto;
+}
+.list-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 5% 10px;
+}
+.box-item-sidebar{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
+    border-radius: 5px;
+}
+.box-item-sidebar:hover{
+    background-color: #d9d7d7;
+}
+.header-list-sidebar{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.img-item-sidebar{
+    width: 16%;
+}
+.link-item-sidebar{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.text-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+main{/* Main */
     display: flex;
     background-color: #f5f5fa;
     padding-left: 13%;
@@ -229,32 +327,69 @@ main{
     height: 200%;
 }
 .container-main{
-    border: dotted;
     margin-left: 1%;
-    background-color: blueviolet;
     padding: 0.5%;
-    
+    width: 81%;
+}
+.container-main:hover ~ .sidebar{
+    overflow: hidden;
 }
 .main-display{
-    background-color: aquamarine;
+    overflow: hidden;
 }
-.side{
-    width: 110px;
-    height: 300px;
+.slides-show{
+    background-color: white;
+    border-radius: 10px;
+}
+.slide-items{
+    transition: 0.5s;
+    position: relative;
     display: flex;
+    height: 300px;
 }
 .img-slide{
     width: 550px;
     height: 300px;
     border-radius: 3%; 
-    margin-left: 2%;
+    margin-left: 15px;
 }
-.slide-items{
+.block-slide-items{
+    width: 100%;
     display: flex;
-    height: 300px;
-    border: dotted;
-    background-color: rgb(243, 0, 0);
-    border-radius: 20px;
+}
+.buttons-slide{
+    display: none;
+    margin-left: 15px;
+    position: absolute;
+    top: 39%;
+}
+.buttons-slide #prev, #next{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: #0071ff;
+    background-color: white;
+    width: 31px;
+    height: 30px;
+    border: solid 0px  gray;
+    border-radius: 50%;
+}
+.buttons-slide  #next{
+    background-color: yellow;
+}
+.dots{
+    margin-left: 45%;
+    width: 100px;
+    left: 50%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+#dots-slide-first ,#dots-slide-second,#dots-slide-third{
+    margin-left: 5px;
+    background-color: rgb(174, 173, 173);
+    width: 30px;
+    height: 5px;
+    border-radius: 5px;
 }
 .list-event{
     display: flex;
@@ -279,17 +414,16 @@ main{
     font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.text-top-deal{/* muc top-deal */
-    left: 0;
-    color: #db424d;
-}
-.list-top-deal{
-    border: dotted;
+.list-top-deal{/* muc top-deal */
     background-color: white;
     border-radius: 15px;
     height: 400px;
     margin-top: 2%;
     padding: 1%;
+}
+.text-top-deal{
+    left: 0;
+    color: #db424d;
 }
 .list-box{
     display: flex;
@@ -304,6 +438,7 @@ main{
     height: 350px;
 }
 .link-box-item{
+    color: black;
     text-decoration: none;
 }
 .img-of-box{
@@ -367,7 +502,7 @@ main{
 }
 .img-top-deal{
     width: 20%;
-}.link-top-deal{
+}.link-all-item{
     color: #0071ff;
     margin-top: 1%;
     text-decoration: none;
@@ -391,22 +526,179 @@ hr{
     color: grey;
     margin-top: 3%;
 }
-.plash-sale{
-
+.item-your-care{/* muc san pham ban quan tam*/
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+    margin-top: 2%;
+    padding: 1%;
 }
-.prominent-brand{
-
+.header-your-care{
+    margin-top: 1%;
+    height:20px;
+}
+.text-header-your-care{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plash-sale{ /* dinh dang ,uc flash sale*/
+    background-color: white;
+    border-radius: 15px;
+    height: 280px;
+    margin-top: 2%;
+    padding: 1%;
+}
+.header-flash-sale{
+    margin-top: 1%;
+    height:20px;
+}
+.text-header-flash-sale{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-flash-sale{
+    background-color: #FF4C57;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.symbor-item{
+    color: #acaaaa;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list-box-flash-sale{
+    display: flex;
+    margin-top: 10px;
+}
+.box-flash-sale{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 210px;
+    width: 200px;
+    padding: 5px;
+}
+.img-box-FS{
+    width: 150px;
+    height: 150px;
+}
+.img-sale-off{
+    background-color: rgb(185, 160, 164);
+    width: 150px;
+    position: absolute;
+}
+.number-sale-off{
+    position: absolute;
+    color: #FF6E77;
+    padding:4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+    z-index: 1000;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.content-box-FS{
+    height: 50px;
+    margin-top: 5px;
+}
+.cost-sale-off{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #FF6E77;
+    height: 30px;
+}
+.remaining-products{
+    background-color: #FFAEB3;
+    margin-top: 4px;
+    height: 18px;
+    border-radius: 20px;
+}
+.icon-fire{
+    position: absolute;
+    width: 25px;
+    margin-left: 7px;
+    margin-top: -10px;
+}
+.content-remaining-products{
+    position: absolute;
+    text-align: center;
+    margin-left: 3.4%;
+    color: white;
+    font-size: 80%;
+}
+.level-remaining{
+    position: absolute;
+    background-color: #FF4C57;
+    height: 18px;
+    border-radius: 20px;
+    color: #FF4C57;
+}
+.prominent-brand-items{
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 280px;
+    background-image: linear-gradient(180deg,#e2ecfe,#FFFFFF);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-list-prominent-brand{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-items-prominent-brand{
+    display: flex;
+    height: 250px;
+    margin-top: 15px;
+}
+.img-brand{
+    border-radius: 10px;
+    margin-left: 18px;
+    height: 243px;
+    width: 166px;
 }
 .items-foreign{
-
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+    margin-top: 2%;
+    padding: 1%;
 }
-.items-recommend{
-
+.header-items-foreign{
+    height: 20px;
 }
-.maybe-you-like{
-
+.text-header-items-foreign{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.recommend-today{
+.items-sale-off{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:white;
+    height: 390px;
+    padding-top: 5px;
+}
+.list-items-sale-off{
+    margin-top: 15px;
+    display: flex;
+    height: 170px;
+}
+.item-sale-off{
+    margin-left: 13px;
+    border-radius: 10px;
+    width: 174px;
+    height: 170px;
+}
+.maybe-your-like{/* muc ban co the thich*/
+    background-color: white;
+    border-radius: 15px;
+    height: 400px;
+    margin-top: 2%;
+    padding: 1%;
+}
+.header-maybe-your-like{
+    margin-top: 1%;
+    height:20px;
+}
+.text-header-maybe-your-like{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .style-footer{/* foooter*/
     background-color: white;
@@ -475,41 +767,4 @@ hr{
 }
 .icon-connect{
     width: 80%;
-}
-/* sidebar */
-.sidebar{
-    width: 85%;
-    margin-top: 1%;
-}
-.list-item-sidebar{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 10%;
-    padding: 5% 2%;
-}
-.box-tiem-sidebar{
-    display: flex;
-    margin-top: 7%;
-    padding-left: 10%;
-    padding-right: 8%;
-}
-.header-list-sidebar{
-    padding-top: 5%;
-    padding-left: 10%;
-}
-.img-item-sidebar{
-    width: 16%;
-}
-.link-item-sidebar{
-    display: flex;
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-} 
-.text-item-sidebar{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    padding-top: 3%;
-    padding-left: 5%;
 }
