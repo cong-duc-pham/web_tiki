@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 /* dinh dang thanh freeship tren cung*/
 .freeship{
@@ -197,7 +198,7 @@ body{
     width: 100%;
 }
 .list-recommend{
-    width: 60%;
+    width: 50%;
     height: 5%;
 }
 .address{
@@ -216,7 +217,6 @@ body{
     display: flex;
     width: 500px;
     height: 40px;
-    margin-left: 20%;
     color: black;
 }
 .img-location{
@@ -272,8 +272,7 @@ body{
     color: #0071ff;
 }
 .sidebar{/* sidebar */
-    height: 160vh;
-    overflow:hidden;
+    height: 80vh;
     position: sticky;
     top: 0;
     width: 100%;
@@ -281,6 +280,9 @@ body{
 }
 .sidebar:hover{
     overflow-y: auto;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
 }
 .list-item-sidebar{
     font-family: Arial, Helvetica, sans-serif;
@@ -307,6 +309,7 @@ body{
     width: 16%;
 }
 .link-item-sidebar{
+    padding: 5px;
     display: flex;
     text-decoration: none;
     color: black;
@@ -332,12 +335,13 @@ main{/* Main */
     width: 81%;
 }
 .container-main:hover ~ .sidebar{
-    overflow: hidden;
+    overflow: auto;
 }
 .main-display{
     overflow: hidden;
 }
 .slides-show{
+    position: relative;
     background-color: white;
     border-radius: 10px;
 }
@@ -357,24 +361,30 @@ main{/* Main */
     width: 100%;
     display: flex;
 }
-.buttons-slide{
+.each-button{
     display: none;
-    margin-left: 15px;
     position: absolute;
-    top: 39%;
-}
-.buttons-slide #prev, #next{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
-    color: #0071ff;
+    font-size:  25px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    cursor: pointer;
+    color: #1670ff;
     background-color: white;
-    width: 31px;
-    height: 30px;
-    border: solid 0px  gray;
     border-radius: 50%;
 }
-.buttons-slide  #next{
-    background-color: yellow;
+.slides-show:hover .each-button{
+    display: block;
+}
+.fa-solid{
+    margin-left: 6px;
+}
+.button-left-slide{
+    left: 17px;
+}
+.button-right-slide{
+    right: 17px;
 }
 .dots{
     margin-left: 45%;
@@ -384,12 +394,15 @@ main{/* Main */
     list-style: none;
     display: flex;
 }
-#dots-slide-first ,#dots-slide-second,#dots-slide-third{
+.dots-slide{
     margin-left: 5px;
     background-color: rgb(174, 173, 173);
     width: 30px;
     height: 5px;
     border-radius: 5px;
+}
+.active{
+    background-color: #1670ff;
 }
 .list-event{
     display: flex;
@@ -400,6 +413,8 @@ main{/* Main */
     padding: 1%;
 }
 .event{
+    color: black;
+    text-decoration: none;
     margin-left: 0.4%;
     width: 9.5%;;
 }
@@ -699,6 +714,135 @@ hr{
 }
 .text-header-maybe-your-like{
     font-family: Arial, Helvetica, sans-serif;
+}
+.recommend-today{/*muc goi y hom nay*/
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+.header-recommend-today{
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    height: 500px;
+}
+.text-header-list-choice{
+    padding: 20px;
+}
+.header-list-choice{
+    padding-top: 20px;
+    height: 20%;
+}
+.list-choice{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+.tab-choice{
+    margin-top: 10px;
+    height: 90px;
+    width: 16%;
+    background-color: #fff;
+}
+.tab-choice:hover{
+    background-color: #F2F7FF;
+    border-bottom: solid 0.5px  #0071ff; 
+}
+.tab-choice:hover .img-choice-header{
+    background-color: #F2F7FF;
+}
+.text-choice-header{
+    color: #a8a8a8;
+    text-align: center;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+}
+.img-choice-header{
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 55px;
+    padding: 10px;
+    width: 40px;
+}
+.tab-for-you , .img-for-you{
+    background-color: #F2F7FF;
+}
+.display-items-recommend-today{
+    display: flex;
+    padding: 15px;
+    background-color: #16b365;
+    margin-top: 10px;
+    height: 400px;
+}
+.content-display{
+    display: grid;
+}
+.box{
+    background-color: white;
+    margin-left: 0.5%;
+    border: solid 0.5px #dadada;
+    border-radius: 5%;
+    width: 180px;
+    height: 350px;
+}
+.block-big-box-item{
+    border: solid 2px;
+    background-color: white;
+    margin-left: 0.5%;
+    border: solid 0.5px #dadada;
+    border-radius: 5%;
+    width: 360px;
+    height: 350px;
+}
+.big-box-item{
+    display: none;
+    background-color: white;
+    margin-left: 0.5%;
+    border: solid 0.5px #dadada;
+    border-radius: 5%;
+    width: 360px;
+    height: 350px;
+}
+.logo-brand-item{
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.info-brand-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: yellow;
+    height: 50%;
+}
+.header-big-box{
+    background-color: green;
+    height: 25%;
+}
+.Sponsorship-brand{
+    background-color: #0071ff;
+    height: 25%;
+}
+.list-items-of-brand{
+    display: flex;
+    background-color: rgb(36, 21, 23);
+    height: 50%;
+    width: 100%;
+}
+.slide-list-items{
+    background-color: pink;
+    height: 100%;
+    width: 60%;
+
+}
+.see-more-list-items-of-brand{
+    background-color: orange;
+    height: 100%;
+    width: 40%;
 }
 .style-footer{/* foooter*/
     background-color: white;
