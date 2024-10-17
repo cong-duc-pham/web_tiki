@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My announcement</title>
+    <title>Thông tin thanh toán</title>
     <link rel="shortcut icon" href="/Tiki.vn/Home/IMG/favicon/Favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/my_announcement.css">
     <link rel="stylesheet" href="/Tiki.vn/Home/fontawesome-free-6.6.0/css/all.min.css">
@@ -179,7 +179,7 @@
                     <br>
                     <li class="tap-anno">
                         <span class="fa-li">
-                            <a href="" class="info-icon-anno">
+                            <a href="/Tiki.vn/Home/HTML/payment_information.html" class="info-icon-anno">
                                 <span class="icon-color-anno"><i class="fa-regular fa-credit-card"></i>
                                     <div class="text-icon-anno">Thông tin thanh toán</div>
                                 </span>
@@ -189,7 +189,7 @@
                     <br>
                     <li class="tap-anno">
                         <span class="fa-li">
-                            <a href="" class="info-icon-anno">
+                            <a href="/Tiki.vn/Home/HTML/product_review.html" class="info-icon-anno">
                                 <span class="icon-color-anno"><i class="fa-solid fa-message"></i>
                                     <div class="text-icon-anno">Đánh giá sản phẩm</div>
                                 </span>
@@ -209,7 +209,7 @@
                     <br>
                     <li class="tap-anno">
                         <span class="fa-li">
-                            <a href="" class="info-icon-anno">
+                            <a href="/Tiki.vn/Home/HTML/favorite_list.html" class="info-icon-anno">
                                 <span class="icon-color-anno"><i class="fa-solid fa-heart"></i>
                                     <div class="text-icon-anno">Sản phẩm yêu thích</div>
                                 </span>
@@ -219,7 +219,7 @@
                     <br>
                     <li class="tap-anno">
                         <span class="fa-li">
-                            <a href="" class="info-icon-anno">
+                            <a href="/Tiki.vn/Home/HTML/my_comment.html" class="info-icon-anno">
                                 <span class="icon-color-anno"><i class="fa-regular fa-star-half-stroke"></i>
                                     <div class="text-icon-anno">Nhận xét của tôi</div>
                                 </span>
@@ -304,53 +304,10 @@
             </div>
             <div class="right-anno">
                 <div>
-                    <p class="title-anno">Thông báo của tôi</p>
+                    <p class="title-anno">Thông báo thanh toán</p>
                 </div>
                 <div class="form-anno">
                     <div class="left-form-anno">
-                        <script>
-                                const Home_content = `
-                                    <div class="notification-content">
-                                        <img src="/Tiki.vn/Home/IMG/my_announcement/thongbao.png">
-                                        <p>Bạn chưa có thông báo</p>
-                                        <button>Tiếp tục mua sắm</button>
-                                    </div>
-                                `;
-                                const Gift_content = `
-                                    <div class="notification-content">
-                                        <img src="/Tiki.vn/Home/IMG/my_announcement/thongbao.png">
-                                        <p>Bạn chưa có thông báo</p>
-                                        <button>Tiếp tục mua sắm</button>
-                                    </div>
-                                `;
-                                const Scroll_content = `
-                                    <div class="notification-content">
-                                        <img src="/Tiki.vn/Home/IMG/my_announcement/thongbao.png">
-                                        <p>Bạn chưa có thông báo</p>
-                                        <button>Tiếp tục mua sắm</button>
-                                    </div>
-                                `;
-                                const History_content = `
-                                    <div class="notification-content">
-                                        <img src="/Tiki.vn/Home/IMG/my_announcement/thongbao.png">
-                                        <p>Bạn chưa có thông báo</p>
-                                        <button>Tiếp tục mua sắm</button>
-                                    </div>
-                                `;
-                                function updateContent(content) {
-                                document.getElementById("content-announcement").innerHTML = content;
-                                }
-
-                        </script>
-    
-                        <div class="button-icon-anno">
-                            <button onclick="updateContent(Home_content)"><i class="fas fa-home"></i></button>             
-                            <button onclick="updateContent(Gift_content)"><i class="fas fa-gift"></i></button>
-                            <button onclick="updateContent(Scroll_content)"><i class="fas fa-scroll"></i></button>
-                            <button onclick="updateContent(History_content)"><i class="fas fa-history"></i></button>
-                            
-                        </div>
-                        
                         <div id="content-announcement" class="content-box-announcement">
                             <div class="notification-content">
                                 <img src="/Tiki.vn/Home/IMG/my_announcement/thongbao.png">
