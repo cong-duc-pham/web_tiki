@@ -21,8 +21,9 @@ This is a static web interface project inspired by Tiki.vn, built using HTML, CS
    git clone https://github.com/yourusername/tiki-clone.git
 2. Navigate to the project directory:
 
-bash
- cd tiki-clone
+```bash
+   cd tiki-clone
+```
 3. Open the index.html file in your browser to view the website.
 
 ## Demo
