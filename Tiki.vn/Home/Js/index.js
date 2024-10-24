@@ -58,3 +58,11 @@ buttonLeft.addEventListener('click', () =>{
         document.querySelector('.dots-slide-' + current).classList.add('active');  // Add 'px' for proper CSS transformation
     }
 })
+//js nut xem them san pham
+function  teb_errol(){
+    alert("Hiện tại các sản phẩm của mục này chưa được cập nhật. Vui lòng thông cảm và quay lại sau!");
+}
+
+function button_see_more(){
+    alert("Hiện tại website chưa cập nhật nhiều sản phẩm để bạn xem thêm. Vui lòng quay lại sau!");
+}
