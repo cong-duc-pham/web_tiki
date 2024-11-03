@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tài khoản của tôi | Tiki.vn</title>
+    <link rel="shortcut icon" href="/Tiki.vn/Home/IMG/favicon/Favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/account.css">
+    <link rel="stylesheet" href="/Tiki.vn/Home/CSS/header.css">
+    <link rel="stylesheet" href="/Tiki.vn/Home/CSS/footer_branch.css">
     <link rel="stylesheet" href="/Tiki.vn/Home/fontawesome-free-6.6.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body>
+    
     <div class="freeship">
         <div class="text">
             <b>Freeship đơn từ 45k, giảm nhiều hơn cùng <i><b id="FS">FREESHIP</b> <b id="xtra">XTRA</b></i></b>
         </div>
     </div>
-    <!--Thanh menu-->
     <header>
-        <div class="container-menu">
-            <!--logo menu-->
+        <div class="container-header">
             <div class="home-logo">
-                <div>
-                    <img id="logo" src="/Tiki.vn/Home/IMG/img-header-footer/Logo_Tiki_2023.png" alt="Home">
-                    <div><span id="text"><b >Tốt & Nhanh</b></span></div>
-                </div>
+                <a class="link-home-logo" href="index.html">
+                    <div>
+                        <img id="logo" src="/Tiki.vn/Home/IMG/img-header-footer/Logo_Tiki_2023.png" alt="Home">
+                        <div><span id="text"><b >Tốt & Nhanh</b></span></div> 
+                    </div>
+                </a>
             </div>
             <div class="container-search">
                 <div class="middle-container">
@@ -39,16 +43,33 @@
                             <a class="link-shortcut-home" href="/Tiki.vn/Home/HTML/index.html">Trang chủ</a>
                         </div>
                         <div class="shortcut-user">
-                            <img class="icon-user" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="shortcut-user">
-                            <a class="link-shortcut-user" href="account.html">Tài khoản</a>
+                            <a class="link-shortcut-user" href="">
+                                <img class="icon-user" src="https://salt.tikicdn.com/ts/upload/07/d5/94/d7b6a3bd7d57d37ef6e437aa0de4821b.png" alt="shortcut-user">
+                                <span>Tài khoản</span>
+                            </a>
+                            <div class="list-shortcut-user">
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/account.html"><span >Thông tin tài khoản</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/giohang.html" href="/"><span>Đơn hàng của tôi</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="/Tiki.vn/Home/HTML/support_center.html" href="/Tiki.vn/Home/HTML/support_center.html"><span>Thông tin hỗ trợ</span><br></a>
+                                </div>
+                                <div class="list-option">
+                                    <a class="text-list-shorcut" href="" href=""><span>Đăng xuât</span><br></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="shortcut-shoppingcart">
-                            <img class="icon-card" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="">
-                            <span class="number"><span class="num"></span></span>
+                            <a  class="shortcut-shoppingcart" href="/Tiki.vn/Home/HTML/giohang.html">
+                                <img class="icon-card" src="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png" alt="https://salt.tikicdn.com/ts/upload/51/e2/92/8ca7e2cc5ede8c09e34d1beb50267f4f.png">
+                                <span class="number"><span class="num"></span></span>
+                            </a>
                         </div>
                     </div>
-                    <div class="shortcut-shoppingcart">
-                </div> 
+                </div>
                 <!--bottom menu-->
                 <div class="bottom-container">
                     <div class="list-recommend">
@@ -69,14 +90,17 @@
                 </div>
             </div>
     </header>
-    <hr>
     <div class="commit"> <!--thanh cam ket-->
-        <div class="list-commit">
+        <div class="header-list-commit">
             <span><b>Cam kết</b></span>
         </div>
-        <div class="list-commit">
+        <div class="first-list-commit">
             <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_hang_that.png" alt="hang_that.png">
-            <span>100% hàng thật</span>
+            <span class="text-list-commit">100% hàng thật</span>
+        </div>
+        <div class="list-commit">
+            <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_freeship.png" alt="freeship.png">
+            <span>Freeship mọi đơn</span>
         </div>
         <div class="list-commit">
             <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_hoan_hang.png" alt="_hoan_hang.png">
@@ -87,26 +111,25 @@
             <span>30 ngày đổi trả</span>
         </div>
         <div class="list-commit">
+            <img  class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_giao_nhanh.png" alt="gia_sieu_re.png">
+            <span>Giao nhanh 2h</span>
+        </div>
+        <div class="list-commit">
             <img  class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_gia_sieu_re.png" alt="gia_sieu_re.png">
             <span>Giá siêu rẻ</span>
         </div>
-        <div class="list-commit">
-            <img class="img-commit" src="/Tiki.vn/Home/IMG/img-commit/commit_freeship.png" alt="freeship.png">
-            <span>Freeship mọi đơn</span>
-        </div>
     </div>
-    <hr>
     <div class="ID">
         <div class="left">
             <p class="address">Trang chủ > Thông tin tài khoản</p>
             <div class="inf">
                 <span><img class="avatar" src="/Tiki.vn/Home/IMG/account/avatar.png" alt=""></span>
             </div>
-            <div class="name">Tài Khoản của <br> <strong>Phạm Đức</strong></div>
+            <div class="name">Tài Khoản của <br> <strong>Bạn</strong></div>
             <ul class="fa-ul">
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/account.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-user "></i><div class="text-icon">Thông tin tài khoản</div></span>
                         </a>
                     </span>
@@ -114,7 +137,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/my_announcement.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-bell"></i><div class="text-icon">Thông báo của tôi</div> </span>
                         </a>
                     </span>
@@ -122,7 +145,7 @@
                 <br >
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/order_management.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-book"></i><div class="text-icon">Quản lý đơn hàng</div></span>
                         </a>
                     </span>
@@ -130,7 +153,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/return_management.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-box"></i><div class="text-icon">Quản lý đổi trả</div></span>
                         </a>
                     </span>
@@ -138,7 +161,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/address_book.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-location-dot"></i><div class="text-icon">Sổ địa chỉ</div></span>
                         </a>
                     </span>
@@ -146,7 +169,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/payment_information.html" class="info-icon">
                             <span class="icon-color"><i class="fa-regular fa-credit-card"></i><div class="text-icon">Thông tin thanh toán</div></span>
                         </a>
                     </span>
@@ -154,7 +177,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/product_review.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-message"></i><div class="text-icon">Đánh giá sản phẩm</div></span>
                         </a>
                     </span>
@@ -162,7 +185,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="https://tiki.vn/danh-rieng-cho-ban" class="info-icon">
                             <span class="icon-color"><i class="fa-regular fa-eye"></i></i><div class="text-icon">Sản phẩm bạn đã xem</div></span>
                         </a>
                     </span>
@@ -170,7 +193,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/favorite_list.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-heart"></i><div class="text-icon">Sản phẩm yêu thích</div></span>
                         </a>
                     </span>
@@ -178,7 +201,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/my_comment.html" class="info-icon">
                             <span class="icon-color"><i class="fa-regular fa-star-half-stroke"></i><div class="text-icon">Nhận xét của tôi</div></span>
                         </a>
                     </span>
@@ -186,7 +209,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/profitable_sharing.html" class="info-icon">
                             <span class="icon-color"><img  src="/Tiki.vn/Home/IMG/account/Chia_se_co_loi.svg" alt="" ><div class="text-icon">Chia sẻ có lời</div></span>
                         </a>
                     </span>
@@ -194,7 +217,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="https://tiki.vn/bao-hiem-so/hop-dong?source_screen=my_account" class="info-icon">
                             <span class="icon-color"><img class="size-color-icon" src="/Tiki.vn/Home/IMG/account/insurance.png" alt=""><div class="text-icon">Hợp đồng bảo hiểm</div></span>
                         </a>
                     </span>
@@ -202,7 +225,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/Voucher.html" class="info-icon">
                             <span class="icon-color"><img src="/Tiki.vn/Home/IMG/account/coupon_code.svg" alt=""><div class="text-icon">Mã giảm giá</div></span>
                         </a>
                     </span>
@@ -210,7 +233,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/Astra.html" class="info-icon">
                             <span class="icon-color"><img class="size-color-icon" src="/Tiki.vn/Home/IMG/account/astra.png" alt=""></i><div class="text-icon">Astra của bạn</div></span>
                         </a>
                     </span>
@@ -218,7 +241,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/management-coin.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-coins"></i><div class="text-icon">Quản lý Tiki Xu của tôi</div></span>
                         </a>
                     </span>
@@ -226,7 +249,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/book-care.html" class="info-icon">
                             <span class="icon-color"><img class="size-color-icon" src="/Tiki.vn/Home/IMG/account/bookcare.svg" alt=""></i><div class="text-icon">BookCare</div></span>
                         </a>
                     </span>
@@ -234,7 +257,7 @@
                 <br>
                 <li class="tap">
                     <span class="fa-li">
-                        <a href="" class="info-icon">
+                        <a href="/Tiki.vn/Home/HTML/support_center.html" class="info-icon">
                             <span class="icon-color"><i class="fa-solid fa-headphones"></i></i><div class="text-icon">Hỗ trợ khách hàng</div></span>
                         </a>
                     </span>
@@ -481,38 +504,6 @@
                                 <button class="button-color">Lưu thay đổi</button>
                             </div>
                         </div>
-                    <!--
-                    <div><p class="title-right-top">Số điện thoại và Email</p></div>
-                    <div >
-                        <ul class="fa-ul">
-                            <li class="contact-phone">
-                                <div class="text-contact">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <span >Số điện thoại</span>
-                                </div>
-                                <button class="update">Cập nhật</button>
-                            </li>
-                            <li class="contact-gmail">
-                                <div>
-                                    <i class="fa-regular fa-envelope"></i>
-                                    <span class="text-contact">Địa chỉ email</span>
-                                </div>
-                                <button class="update">Cập nhật</button>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                    <div><p class="title-right-bot">Bảo mật</p></div>
-                    <div class="protect">
-                        <ul class="fa-ul">
-                            <li><span class="contact-color-icon"><i class="fa-solid fa-lock"></i><span>Đổi mật khẩu</span></span><button class="update">Cập nhật</button></li>
-                            <li><span class="contact-color-icon"><i class="fa-solid fa-shield"></i><span>Thiết lập mã pin</span></span><button class="update">Cập nhật</button></li>
-                            <li><span class="contact-color-icon"><i class="fa-solid fa-trash"></i><span>Yêu cầu xóa tài khoản</span></span><button class="update">Cập nhật</button></li>
-                        </ul>
-                    </div>
-
-                  
-                </div>-->
                 </div>
                 <div class="right-form">
                     <div class="right-form-title-contact">Số điện thoại và Email</div>
@@ -564,7 +555,6 @@
     </div>
     <footer class="style-footer"><!--Footer-->
             <div class="footer-information">
-                <!--ho tro khach hang-->
                 <div class="block">
                     <div class="header-block"> 
                         <h3 class="text-block">Hỗ trợ khách hàng</h3>
@@ -585,7 +575,6 @@
                         <div class="more-information"><span class="list-link">Báo lỗi bảo mật: <a class="email-hotline" href="security@tiki.vn">security@tiki.vn </a></span></div>
                     </div>
                 </div>
-                <!--ve tiki-->
                 <div class="block">
                     <div class="about-tiki">
                         <div class="heading-footer">
@@ -604,7 +593,6 @@
                         <div class="more-information"><a class="list-link" href="https://www.tikinow.vn/bang-gia">Điều kiện vận chuyển</a></div>
                     </div>
                 </div>
-                <!--hop tac...-->
                 <div class="block">
                     <div class="contact">
                         <div class="heading-footer">
@@ -633,7 +621,6 @@
                             </div>
                     </div>
                 </div>
-                <!--phuong thuc..-->
                 <div class="block">
                     <div class="heading-footer">
                         <h3 class="text-block">Phương thức thanh toán</h3>
@@ -645,7 +632,6 @@
                         " alt="">
                     </a>
                 </div>
-                <!--ket noi....-->
                 <div class="block">
                     <div class="heading-footer">
                         <h3 class="text-block">Kết nối với chúng tôi</h3>
@@ -1270,5 +1256,6 @@
             </div>
         </div>
     </footer>
+    
 </body>
 </html>

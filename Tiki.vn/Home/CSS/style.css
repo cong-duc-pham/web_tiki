@@ -1,323 +1,3 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
-/* dinh dang thanh freeship tren cung*/
-.freeship{
-    height: 50px;
-    background-color: #f0fef4;
-}
-.text{
-    padding-top: 0.9%;
-    font-family: arial;
-    font-size: 75%;
-    text-align: center;
-    color: #16b365;
-}
-#FS{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #1670ff;
-    font-size: 110%;
-}
-#xtra{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #0daf5ed8;
-    font-size: 110%;
-}
-.container-header{
-    display: flex;
-    height: 20%;
-}
-/* style header */
-.home-logo{  /* dinh dang div logo home */
-    position: relative;
-    width: 8%;
-    text-align: center;
-    margin-left: 13%;
-}
-.link-home-logo{
-    text-decoration: none;
-}
-.home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
-    width: 85%;
-}
-.home-logo #text{ /* dinh dang text cua logo home*/
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0d48a6;
-}
-/* Thanh tìm kiếm */
-.container-search{
-    width: 67%;
-}
-.icon-search{     /* kich thuoc icon search */
-    padding-top: 1%;
-    padding-left: 2%;
-    width: 2.5%;
-    height: 55%;
-}
-.input-search{
-    border: none;
-    width: 80%;
-}
-.button-search{  /* dinh dang nut tim kiem*/
-    width: 1%;
-    border: none;
-    background-color: white;
-    border-left: solid 0.4px rgb(224, 224, 224);
-    text-align: center;
-    padding-left: 2.5%;
-}
-.link-search{  /*dinh dang text cua nut search */
-    text-decoration: none;
-    text-align: center;
-    color: #1670ff;
-    font-size: 90%;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
-}
-.middle-container{  /* dinh dang div o tren*/
-    margin-left: 1%;
-    position: absolute;
-    display: flex;
-    width: 1300px;
-    height: 4%;
-    margin-top: 15px;
-}
-.search{ /*chieu dai cua thanh tim kiem*/
-    display: flex;
-    width: 66%;
-    height: 120%;
-    border: solid 0.5px rgb(224, 224, 224);
-    border-radius: 10px;
-}
-.menu-shortcut{  /* dinh dang div cua thanh chuc nang*/
-    display: flex;
-    margin-left: 1%;
-}
-.shortcut-home{ /*dinh dang chuc nang nut trang chu */
-    border: solid 0px;
-    border-radius: 10px;
-    display: flex;
-    width: 160px;
-    padding: 2%;
-    margin-left: 10%;
-}
-.shortcut-home:hover{
-    background-color: #e0ecff;
-}
-.icon-home{  /* dinh dang icon home*/
-    width: 30px;
-    height: 30px;
-}
-.link-shortcut-home{  /* dinh dang text */ 
-    color: #0071ff;
-    text-align: justify;
-    text-decoration: none;
-    margin-top: 5px;
-    margin-left: 5%;
-    font-size: 110%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.shortcut-user{ /*dinh dang nut tai khoan */
-    border: solid 0px;
-    border-radius: 10px;
-    width: 130px;
-    padding: 2%;
-}
-.icon-user{ /* dinh dang icon*/
-    width: 23px;
-    height: 23px;
-}.list-shortcut-user{
-    position: relative;
-    z-index: 5;
-    background-color: white;
-    display: none;
-    color: black;
-    border: solid 1px;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 200px;
-    height: 165px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0.5px gray solid;
-}
-.shortcut-user:hover .list-shortcut-user{
-    display: block;
-}
-.list-option{
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-.list-option:hover{
-    display: block;
-    background-color:#e5e5e5;
-    
-}
-.text-list-shorcut{
-    color: black;
-    width: 200px;
-    text-decoration: none;
-}
-.shortcut-user:hover{
-    background-color: #e5e5e5;
-}
-.link-shortcut-user{/* dinh dang text */ 
-    text-align: justify;
-    color: rgb(167, 166, 166);
-    text-decoration: none;
-    margin-left: 5%;
-    font-size: 110%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.shortcut-shoppingcart{ /* dinh dang nut gio hang*/
-    border-radius: 10px;
-    margin-top: 1%;;
-    margin-left: 5px;
-    padding-left: 5px;
-    height: 90%;
-    display: flex;
-}
-.shortcut-shoppingcart:hover{
-    background-color: #e0ecff;
-}
-.icon-card{
-    width: 90%;
-}
-.number{
-    display: flex;
-    background-color: red;
-    border:5px solid red ;
-    border-radius: 200px;
-    width: 3%;
-    height: 10%;
-}
-.signInUp{
-    padding: 20px;
-}
-.button-signIn{
-    color: #0071ff;
-    text-align: center;
-    border-radius: 10px;
-    padding-top: 5px;
-    float: right;
-    width: 100px;
-    height: 25px;
-    border: solid 0.5px #0071ff;
-    background-color: white;
-}
-.button-signUp{
-    color: #0071ff;
-    margin-top: 5px;
-    top: 10px;
-    display: block;
-    text-align: center;
-    border-radius: 10px;
-    padding-top: 5px;
-    float: right;
-    width: 100px;
-    height: 25px;
-    border: solid 0.5px #0071ff;
-    background-color: white;
-}
-.button-signIn:hover{
-    background-color: #e0ecff;
-}
-.button-signUp:hover{
-    background-color: #e0ecff;
-}
-.link-button-signInUp{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    text-decoration: none;
-    background-color: rgb(70, 70, 53);
-
-}
-/*bottom header*/
-.bottom-container{
-    position: absolute;
-    display: flex;
-    margin-top: 3.5%;
-    width: 100%;
-}
-.list-recommend{
-    width: 50%;
-    height: 5%;
-}
-.address{
-    z-index: 3;
-}
-.link-recommend{
-    width: 60%;
-    height: 30px;
-    text-decoration: none;
-    color: gray;
-    font-family:  Arial, Helvetica, sans-serif;
-    font-size: 90%;
-    padding-left: 1%;
-}
-.location{
-    display: flex;
-    width: 500px;
-    height: 40px;
-    color: black;
-}
-.img-location{
-    width:22px;
-    height: 22px;
-    text-decoration: underline;
-    color: black;
-}
-.text-location{
-    color: gray;
-}
-.link-address{
-    z-index: 1;
-    font-size: 90%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-/* commit */
-.commit{
-    border:solid 0.5px rgb(202, 201, 201);
-    font-size: 90%;
-    display: flex;
-    height: 7px;
-    padding-top: 0.5%;
-    padding-bottom: 1.3%;
-    padding-left: 10%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.header-list-commit{
-    color: #0256bd;
-    margin-left: 3%;
-    padding-left: 20px;
-}
-.first-list-commit{
-    padding-left: 20px;
-    font-size: 80%;
-}
-.list-commit{
-    height: 20px;
-    margin-left: 1%;
-    border-left: solid grey 0.5px ;
-    padding-left: 20px;
-    font-size: 80%;
-}
-.list-commit-first{
-    margin-left: 3%;
-    padding-left: 20px;
-}
-.img-commit{
-    width: 20px;
-}
-#icon-commit{
-    color: #0071ff;
-}
 .sidebar{/* sidebar */
     height: 80vh;
     position: sticky;
@@ -555,9 +235,10 @@ main{/* Main */
     color: #acaaaa;
 }
 .some-img-of-box{
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     position: absolute;
-    width: 175px;
+    width: 179px;
     height: 171px;
 }
 .info-of-box{
@@ -775,18 +456,18 @@ hr{
     height: 300%;
 }
 .header-recommend-today{
-    position: sticky;
-    top: 0;
     font-family: Arial, Helvetica, sans-serif;
     height: 140px;
-    z-index: 10000;
 }
+
 .text-header-list-choice{
     padding: 20px;
 }
 .header-list-choice{
     padding-top: 20px;
-    height: 20%;
+    height: 90%;
+    position: sticky;
+    background-color: white;
 }
 .list-choice{
     display: flex;
@@ -829,7 +510,7 @@ hr{
     display: flex;
     padding: 15px;
     background-color: #F5F5FA;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .content-display{
     display: grid;
