@@ -59,7 +59,7 @@ main{/* Main */
 .container-main{
     margin-left: 1%;
     padding: 0.5%;
-    width: 81%;
+    width: 80%;
 }
 .container-main:hover ~ .sidebar{
     overflow: auto;
@@ -80,10 +80,11 @@ main{/* Main */
     height: 300px;
 }
 .img-slide{
-    width: 550px;
+    width: 600px;
     height: 300px;
-    border-radius: 3%; 
-    margin-left: 15px;
+    border-radius: 3%;
+    margin-right: 13px; 
+    margin-left: 13px;
 }
 .block-slide-items{
     width: 100%;
@@ -160,7 +161,7 @@ main{/* Main */
 .list-top-deal{/* muc top-deal */
     background-color: white;
     border-radius: 15px;
-    height: 400px;
+    height: 420px;
     margin-top: 2%;
     padding: 1%;
 }
@@ -174,7 +175,7 @@ main{/* Main */
 }
 .box{
     background-color: white;
-    margin-left: 0.5%;
+    margin-left: 1%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
     width: 180px;
@@ -238,8 +239,8 @@ main{/* Main */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
-    width: 179px;
-    height: 171px;
+    width: 200px;
+    height: 185px;
 }
 .info-of-box{
     position: absolute;
@@ -273,7 +274,7 @@ hr{
 .item-your-care{/* muc san pham ban quan tam*/
     background-color: white;
     border-radius: 15px;
-    height: 400px;
+    height: 420px;
     margin-top: 2%;
     padding: 1%;
 }
@@ -400,8 +401,8 @@ hr{
 .img-brand{
     border-radius: 10px;
     margin-left: 18px;
-    height: 243px;
-    width: 166px;
+    height: 263px;
+    width: 186px;
 }
 .items-foreign{
     background-color: white;
@@ -420,24 +421,24 @@ hr{
     margin-top: 20px;
     border-radius: 10px;
     background-color:white;
-    height: 390px;
+    height: 420px;
     padding-top: 5px;
 }
 .list-items-sale-off{
     margin-top: 15px;
     display: flex;
-    height: 170px;
+    height: 190px;
 }
 .item-sale-off{
-    margin-left: 13px;
+    margin-left: 15px;
     border-radius: 10px;
-    width: 174px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
 }
 .maybe-your-like{/* muc ban co the thich*/
     background-color: white;
     border-radius: 15px;
-    height: 400px;
+    height: 420px;
     margin-top: 2%;
     padding: 1%;
 }
@@ -517,20 +518,19 @@ hr{
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows:  360px 360px 360px 360px 360px;
     column-gap: 5px;
-    row-gap: 5px;
+    row-gap: 15px;
 }
 .box{
     background-color: white;
     margin-left: 0.5%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
-    width: 180px;
-    height: 350px;
+    width: 199px;
+    height: 370px;
 }
 .width-logo-og-big-box{
     padding-top: 20px;
     padding-left: 100px;
-
     width: 40%;
 }
 .block-big-box-item{
@@ -540,8 +540,8 @@ hr{
     margin-left: 0.5%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
-    width: 360px;
-    height: 350px;
+    width: 400px;
+    height: 370px;
 }
 .block-big-box-item-2{
     grid-column: 4/6;
@@ -551,20 +551,20 @@ hr{
     border: solid 0.5px #dadada;
     border-radius: 5%;
     width: 360px;
-    height: 350px;
+    height: 370px;
 }
 .big-box-item{ /*danh dang form san pham lon*/
     background-color: white;
     margin-left: 0.5%;
     border-radius: 5%;
-    width: 360px;
-    height: 350px;
+    width: 400px;
+    height: 370px;
 }
 .logo-brand-item{
     background-image: linear-gradient(180deg,#e2ecfe,#CECFCF);
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
 }
@@ -572,7 +572,7 @@ hr{
     background-image: linear-gradient(180deg,#e2ecfe,#E56868);
     position: relative;
     width: 100%;
-    height: 50%;
+    height: 55%;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
 }

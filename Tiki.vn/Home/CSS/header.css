@@ -33,7 +33,7 @@ body{
 /* style header */
 .home-logo{  /* dinh dang div logo home */
     position: relative;
-    width: 8%;
+    width: 9%;
     text-align: center;
     margin-left: 13%;
 }
@@ -41,7 +41,7 @@ body{
     text-decoration: none;
 }
 .home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
-    width: 85%;
+    width: 90%;
 }
 .home-logo #text{ /* dinh dang text cua logo home*/
     font-family: Arial, Helvetica, sans-serif;
@@ -49,12 +49,12 @@ body{
 }
 /* Thanh tìm kiếm */
 .container-search{
-    width: 67%;
+    width: 65%;
 }
 .icon-search{     /* kich thuoc icon search */
     padding-top: 1%;
     padding-left: 2%;
-    width: 2.5%;
+    width: 3%;
     height: 55%;
 }
 .input-search{
@@ -68,7 +68,7 @@ body{
     height: 400px;
 }
 .button-search{  /* dinh dang nut tim kiem*/
-    width: 1%;
+    width: 2%;
     border: none;
     background-color: white;
     border-left: solid 0.4px rgb(224, 224, 224);
@@ -81,13 +81,13 @@ body{
     color: #1670ff;
     font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 .middle-container{  /* dinh dang div o tren*/
     margin-left: 1%;
     position: absolute;
     display: flex;
-    width: 1300px;
+    width: 1400px;
     height: 4%;
     margin-top: 15px;
 }
