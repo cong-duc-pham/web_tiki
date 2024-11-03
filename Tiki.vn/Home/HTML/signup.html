@@ -7,49 +7,55 @@
     <title>login</title>
 </head>
 <body>
-    <div class="overlay"></div>
-    <div class="overoll">
-        <div class="left">
-            <img class="img-tiki" src="/Tiki.vn/Home/IMG/img-signup_signin/img-left.jpg" alt="">
+    <main>
+        <div class="overlay"></div>
+        <div class="overoll">
+            <div class="left">
+                <img class="img-tiki" src="/Tiki.vn/Home/IMG/img-signup_signin/tiki-signup.png" alt="">
+            </div>
+            <div class="right">
+                <p class="big-title">SIGN UP</p>
+                <div class="name">
+                    <span class="title">Name: </span>
+                    <input type="text" class="ip-name" placeholder="Enter your name" required>
+                </div>
+                <div class="gmail">
+                    <span class="title">Email: </span>
+                    <input type="text" class="ip-email" placeholder="gmail123@gmail.com" required>
+                </div>
+                <div class="phone-number">
+                    <span class="title">Phone number: <input type="text" class="ip-pn" placeholder="Enter your phone number" required></span>
+                </div>
+                <div class="nation">
+                    <span class="title">Nation</span>
+                    <select class="select-nation">
+                        <option class="disabled" value="" disabled selected>Select your nation</option>
+                        <option value="BN">Brunei</option>
+                        <option value="KH">Campuchia</option>
+                        <option value="ID">Indonesia</option>
+                        <option value="LA">Lào</option>
+                        <option value="MY">Malaysia</option>
+                        <option value="MM">Myanmar</option>
+                        <option value="PH">Philippines</option>
+                        <option value="SG">Singapore</option>
+                        <option value="TH">Thái Lan</option>
+                        <option value="VN">Việt Nam</option>
+                        <option value="TL">Timor-Leste</option>
+                    </select>
+                </div>
+                <div class="password">
+                    <span class="title">Password: </span>
+                    <input type="text" class="ip-pass" placeholder="Enter your Password" required>
+                </div>
+                <div class="comfirm-password">
+                    <span class="title">Comfirm password: </span>
+                    <input type="text" class="ip-comfirm-pass" placeholder="Enter comfirm your Password" required>
+                </div>
+                <div class="but">
+                    <a href="/Tiki.vn/Home/HTML/signin.html"><button class="style-button">Sign up</button></a>
+                </div>
+            </div>
         </div>
-        <div class="right">
-            <p class="big-title">SIGN UP</p>
-            <div class="name">
-                <span class="title">Name: </span>
-                <input type="text" class="ip-name" placeholder="enter your name" required>
-            </div>
-            <div class="password">
-                <span class="title">Password: </span>
-                <input type="text" class="ip-pass" placeholder="enter your Password" required>
-            </div>
-            <div class="gmail">
-                <span class="title">gmail: </span>
-                <input type="text" class="ip-email" placeholder="gmail123@gmail.com" required>
-            </div>
-            <div class="phone-number">
-                <span class="title">Phone number: <input type="text" class="ip-pn" placeholder="enter your phone number" required></span>
-            </div>
-            <div class="nation">
-                <span class="title">Nation</span>
-                <select class="select-nation">
-                    <option class="disabled" value="" disabled selected>select your nation</option>
-                    <option value="BN">Brunei</option>
-                    <option value="KH">Campuchia</option>
-                    <option value="ID">Indonesia</option>
-                    <option value="LA">Lào</option>
-                    <option value="MY">Malaysia</option>
-                    <option value="MM">Myanmar</option>
-                    <option value="PH">Philippines</option>
-                    <option value="SG">Singapore</option>
-                    <option value="TH">Thái Lan</option>
-                    <option value="VN">Việt Nam</option>
-                    <option value="TL">Timor-Leste</option>
-                </select>
-            </div>
-            <div class="but">
-                <a href="/Tiki.vn/Home/HTML/signin.html"><button class="style-button">Sign up</button></a>
-            </div>
-        </div>
-    </div>
+    </main>
 </body>
 </html>
