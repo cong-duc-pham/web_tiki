@@ -33,7 +33,7 @@ body{
 /* style header */
 .home-logo{  /* dinh dang div logo home */
     position: relative;
-    width: 8%;
+    width: 10%;
     text-align: center;
     margin-left: 13%;
 }
@@ -54,7 +54,7 @@ body{
 .icon-search{     /* kich thuoc icon search */
     padding-top: 1%;
     padding-left: 2%;
-    width: 2.5%;
+    width: 3%;
     height: 55%;
 }
 .input-search{
@@ -79,15 +79,14 @@ body{
     text-decoration: none;
     text-align: center;
     color: #1670ff;
-    font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 .middle-container{  /* dinh dang div o tren*/
     margin-left: 1%;
     position: absolute;
     display: flex;
-    width: 1300px;
+    width: 1400px;
     height: 4%;
     margin-top: 15px;
 }
