@@ -31,6 +31,10 @@ A live demo of the project can be found at Live Demo. Feel free to explore the s
 
 ## Screenshots
 Here are some screenshots of the website:
+![header](https://github.com/user-attachments/assets/aa140806-0845-4491-887c-34a9e02da34f)
+![image](https://github.com/user-attachments/assets/fbbd104e-9fd8-4b65-ba87-d7518cd07455)
+
+
 
 
 ## Future Improvements
