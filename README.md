@@ -43,7 +43,7 @@ Some features to consider adding in future updates:
 - Enhanced Interactions: Add more JavaScript functionality, such as product filtering or a shopping cart simulation.
 - API Integration: Implement a backend or third-party API to load dynamic product data.
 ## Author
-This project was created by [Your Name]. If you have any questions or suggestions regarding this project, feel free to reach out via email: [your-email@example.com].
+This project was created by the DLT team. If you have any questions or suggestions regarding this project, feel free to reach out via email: phamcongduc20102005@gmail.com.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
