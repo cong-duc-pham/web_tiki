@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/signup.css">
-    <title>login</title>
+    <link rel="shortcut icon" href="/Tiki.vn/Home/IMG/favicon/Favicon.jpg" type="image/x-icon">
+    <title>Sign Up | Tiki.vn</title>
 </head>
 <body>
     <main>
@@ -15,20 +16,20 @@
             </div>
             <div class="right">
                 <p class="big-title">SIGN UP</p>
-                <div class="name">
+                <div class="name" >
                     <span class="title">Name: </span>
-                    <input type="text" class="ip-name" placeholder="Enter your name" required>
+                    <input type="text"id="name" class="ip-name" placeholder="Enter your name" required>
                 </div>
-                <div class="gmail">
+                <div class="gmail" >
                     <span class="title">Email: </span>
-                    <input type="text" class="ip-email" placeholder="gmail123@gmail.com" required>
+                    <input type="text"id="mail" class="ip-email" placeholder="gmail123@gmail.com" required>
                 </div>
-                <div class="phone-number">
-                    <span class="title">Phone number: <input type="text" class="ip-pn" placeholder="Enter your phone number" required></span>
+                <div class="phone-number" >
+                    <span class="title">Phone number: <input type="text"id="numberphone" class="ip-pn" placeholder="Enter your phone number" required></span>
                 </div>
                 <div class="nation">
                     <span class="title">Nation</span>
-                    <select class="select-nation">
+                    <select class="select-nation" id="nation">
                         <option class="disabled" value="" disabled selected>Select your nation</option>
                         <option value="BN">Brunei</option>
                         <option value="KH">Campuchia</option>
@@ -45,17 +46,30 @@
                 </div>
                 <div class="password">
                     <span class="title">Password: </span>
-                    <input type="text" class="ip-pass" placeholder="Enter your Password" required>
+                    <input type="text" class="ip-pass"  id="pass"placeholder="Enter your Password" required>
                 </div>
                 <div class="comfirm-password">
                     <span class="title">Comfirm password: </span>
-                    <input type="text" class="ip-comfirm-pass" placeholder="Enter comfirm your Password" required>
+                    <input type="text" class="ip-comfirm-pass" id="comfirm-pass" placeholder="Enter comfirm your Password" required>
                 </div>
-                <div class="but">
-                    <a href="/Tiki.vn/Home/HTML/signin.html"><button class="style-button">Sign up</button></a>
+                <div class="polecy">
+                    <input class="style-radio" type="radio" id="policy">
+                    <span class="text-polecy">You have read and agreed to Tiki's 
+                        <span>
+                            <a href="https://hotro.tiki.vn/s/article/dieu-khoan-su-dung?_gl=1*1vtx733*_gcl_au*Njk0NDY4NDgyLjE3MjY3OTI0MTE.*_ga*NjkyMzc0ODMzLjE3MjY3OTI0MDg.*_ga_S9GLR1RQFJ*MTcyODg2OTA4NC40OS4wLjE3Mjg4NjkwODQuNjAuMC4w">terms of use</a>
+                        </span> 
+                            and 
+                        <span>
+                            <a href="https://tiki.vn/bao-mat-thong-tin-ca-nhan">personal information privacy policy</a>
+                        </span>.
+                    </span>
+                <div class="but" >
+                    <a href="/Tiki.vn/Home/HTML/signin.html"><button class="style-button"id="buttonm">Sign up</button></a>
                 </div>
             </div>
         </div>
     </main>
+    <script src="/Tiki.vn/Home/Js/SignUp.js"></script>
+    
 </body>
 </html>

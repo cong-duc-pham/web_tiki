@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Tiki.vn/Home/CSS/signin.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="/Tiki.vn/Home/IMG/favicon/Favicon.jpg" type="image/x-icon">
+    <title>Sign in | Tiki.vn</title>
 </head>
 <body>
     <div class="overlay"></div>
@@ -13,14 +14,14 @@
         
         <div class="title">SIGN IN</div>
         <div class="name">
-            <input type="text" class="ip" placeholder="enter your name" required>
+            <input type="text" class="ip" id="name" placeholder="Enter your name" required>
         </div>
         <div class="password">
-            <input type="text" class="ip" placeholder="enter your Password" required>
+            <input type="text" class="ip" id="pass" placeholder="Enter your Password" required>
         </div>
         <div class="polecy">
-            <input class="style-radio" type="radio" >
-            <span class="text-polecy">you have read and agreed to Tiki's 
+            <input class="style-radio" type="radio" id="policy">
+            <span class="text-polecy">You have read and agreed to Tiki's 
                 <span>
                     <a href="https://hotro.tiki.vn/s/article/dieu-khoan-su-dung?_gl=1*1vtx733*_gcl_au*Njk0NDY4NDgyLjE3MjY3OTI0MTE.*_ga*NjkyMzc0ODMzLjE3MjY3OTI0MDg.*_ga_S9GLR1RQFJ*MTcyODg2OTA4NC40OS4wLjE3Mjg4NjkwODQuNjAuMC4w">terms of use</a>
                 </span> 
@@ -34,12 +35,13 @@
             <a href="/Tiki.vn/Home/HTML/index.html"><button class="style-button">SIGN IN</button></a>
         </div>
         <div class="other">
-            <a class="f-pass" href=""><div >forgot password</div></a>
+            <a class="f-pass" href=""><div >Forgot password</div></a>
             <a class="si-sms" href=""><div >Login with SMS</div></a>
         </div>
         <div class="Not-available">
             New to tiki? <span><a class="Register" href="/Tiki.vn/Home/HTML/signup.html">Register</a></span>
         </div>
     </div>
+    <script src="/Tiki.vn/Home/Js/SignIn.js"></script>
 </body>
 </html>

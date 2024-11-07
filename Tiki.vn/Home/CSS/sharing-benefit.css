@@ -1,0 +1,456 @@
+.container-ID{
+    background-color: #F5F5FA;
+}
+
+.address{
+    color: gray;
+}
+.inf{
+    float: left;
+}
+.name{
+    padding-top: 10px;
+}
+.left{
+    width: 21%;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+}
+.avatar{
+    border: 900px ;
+    border-radius: 500px;
+    width: 50px;
+}
+.icon-color{
+    width: 200px;
+    display: flex;
+    color: gray;
+}
+.tap{
+    height: 20px;
+}
+.TTTK{
+    width: 40px;
+}
+.info-icon{
+    text-decoration: none;
+}
+.text-icon{
+    font-size: small;
+    padding-left: 25px;
+}
+.ID{
+    width: 1185px;
+    margin: auto;
+    background-color: #f5f5fa;
+    display: flex;
+}
+.size-color-icon{
+    width: 12%;
+}
+.right{
+     padding-top: 60px; 
+    width: 72%;
+}
+.form{
+    width: 100%;
+    background-color: white;
+    height: 50%;
+    border-radius: 20px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+/* thong bao */
+
+
+.footer-box{
+    width: 1260px;
+    margin: auto;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* dinh dang thanh freeship tren cung*/
+.freeship{
+    height: 50px;
+    background-color: #f0fef4;
+}
+.text{
+    padding-top: 0.9%;
+    font-family: arial;
+    font-size: 75%;
+    text-align: center;
+    color: #16b365;
+}
+#FS{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1670ff;
+    font-size: 110%;
+}
+#xtra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0daf5ed8;
+    font-size: 110%;
+}
+.container-menu{
+    display: flex;
+    height: 20%;
+}
+/* style header */
+.home-logo{  /* dinh dang div logo home */
+    position: relative;
+    width: 8%;
+    text-align: center;
+    margin-left: 13%;
+}
+.home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
+    width: 85%;
+}
+.home-logo #text{ /* dinh dang text cua logo home*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d48a6;
+}
+/* Thanh tìm kiếm */
+.container-search{
+    width: 80%;
+}
+.icon-search{     /* kich thuoc icon search */
+    padding-top: 1%;
+    padding-left: 2%;
+    width: 2.5%;
+    height: 55%;
+}
+.input-search{
+    border: none;
+    width: 80%;
+}
+.button-search{  /* dinh dang nut tim kiem*/
+    width: 1%;
+    border: none;
+    background-color: white;
+    border-left: solid 0.4px rgb(224, 224, 224);
+    text-align: center;
+    padding-left: 2.5%;
+}
+.link-search{  /*dinh dang text cua nut search */
+    text-decoration: none;
+    text-align: center;
+    color: #1670ff;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+}
+.middle-container{  /* dinh dang div o tren*/
+    margin-left: 1%;
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 4%;
+    margin-top: 15px;
+}
+.search{ /*chieu dai cua thanh tim kiem*/
+    display: flex;
+    width: 66%;
+    height: 120%;
+    border: solid 0.5px rgb(224, 224, 224);
+    border-radius: 10px;
+}
+.menu-shortcut{  /* dinh dang div cua thanh chuc nang*/
+    display: flex;
+    margin-left: 1%;
+}
+.shortcut-home{ /*dinh dang chuc nang nut trang chu */
+    border: solid 0px;
+    border-radius: 10px;
+    display: flex;
+    width: 160px;
+    padding: 2%;
+    margin-left: 10%;
+}
+.shortcut-home:hover{
+    background-color: #e0ecff;
+}
+.icon-home{  /* dinh dang icon home*/
+    width: 30px;
+    height: 30px;
+}
+.link-shortcut-home{  /* dinh dang text */ 
+    color: #0071ff;
+    text-align: justify;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-user{ /*dinh dang nut tai khoan */
+    border: solid 0px;
+    border-radius: 10px;
+    width: 130px;
+    padding: 2%;
+}
+.icon-user{ /* dinh dang icon*/
+    width: 23px;
+    height: 23px;
+}.list-shortcut-user{
+    position: relative;
+    z-index: 5;
+    background-color: white;
+    display: none;
+    color: black;
+    border: solid 1px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 200px;
+    height: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shortcut-user:hover .list-shortcut-user{
+    display: block;
+}
+.list-option{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.list-option:hover{
+    display: block;
+    background-color: rgb(156, 156, 156);
+    
+}
+.text-list-shorcut{
+    color: black;
+    width: 200px;
+    text-decoration: none;
+}
+.shortcut-user:hover{
+    background-color: #e5e5e5;
+}
+.link-shortcut-user{/* dinh dang text */ 
+    text-align: justify;
+    color: rgb(167, 166, 166);
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 110%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shortcut-shoppingcart{ /* dinh dang nut gio hang*/
+    border-radius: 10px;
+    margin-top: 1%;;
+    padding-left: 5px;
+    height: 90%;
+    display: flex;
+}
+.shortcut-shoppingcart:hover{
+    background-color: #e0ecff;
+}
+.icon-card{
+    width: 90%;
+}
+.number{
+    display: flex;
+    border:5px solid red ;
+    border-radius: 200px;
+    width: 3%;
+    height: 10%;
+}
+/*bottom header*/
+.bottom-container{
+    position: absolute;
+    display: flex;
+    margin-top: 3.5%;
+    width: 100%;
+}
+.list-recommend{
+    width: 60%;
+    height: 5%;
+}
+.address{
+    z-index: 3;
+}
+.link-recommend{
+    width: 60%;
+    height: 30px;
+    text-decoration: none;
+    color: gray;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-left: 1%;
+}
+.location{
+    display: flex;
+    width: 500px;
+    height: 40px;
+    margin-left: 20%;
+    color: black;
+}
+.img-location{
+    width:22px;
+    height: 22px;
+    text-decoration: underline;
+    color: black;
+}
+.text-location{
+    color: gray;
+}
+.link-address{
+    z-index: 1;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* commit */
+.commit{
+    border:solid 0.5px rgb(202, 201, 201);
+    font-size: 90%;
+    display: flex;
+    height: 7px;
+    padding-top: 0.5%;
+    padding-bottom: 1.3%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-list-commit{
+    color: #0256bd;
+    margin-left: 3%;
+    padding-left: 20px;
+}
+.first-list-commit{
+    padding-left: 20px;
+    font-size: 80%;
+}
+.list-commit{
+    height: 20px;
+    margin-left: 1%;
+    border-left: solid grey 0.5px ;
+    padding-left: 20px;
+    font-size: 80%;
+}
+.list-commit-first{
+    margin-left: 3%;
+    padding-left: 20px;
+}
+.img-commit{
+    width: 20px;
+}
+#icon-commit{
+    color: #0071ff;
+}
+.sidebar{/* sidebar */
+    height: 160vh;
+    overflow:hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-top: 1%;
+}
+.sidebar:hover{
+    overflow-y: auto;
+}
+.list-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 5% 10px;
+}
+.box-item-sidebar{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 8%;
+    border-radius: 5px;
+}
+.box-item-sidebar:hover{
+    background-color: #d9d7d7;
+}
+.header-list-sidebar{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.img-item-sidebar{
+    width: 16%;
+}
+.link-item-sidebar{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.text-item-sidebar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+.right{
+    padding: 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+.banner{
+    width: 90%;
+    height: 23%;
+    background-image: url(/Tiki.vn/Home/IMG/img-sharing-benefit/background_banner.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 40px;
+}
+.text-banner{
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-banner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+.info{
+    background-color: white;
+    height: 33%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.title-info{
+    margin-top: 5px;
+    padding: 10px;
+    height: 15%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choice{
+    border: #0071ff solid 0.5px;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 65%;
+    padding: 10px;
+}
+.list-choice{
+    display: flex;
+}
+.number-choice{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    height: 23px;
+    width: 30px;
+    background-color:  #1670ff;
+    border-radius: 50%;
+}
+.info-choice{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.line{
+    font-size: 25px;
+    margin-left: 12px;
+    color: #0071ff;
+}
