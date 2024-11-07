@@ -105,7 +105,6 @@ body{
     width: 8%;
     text-align: center;
     margin-left: 13%;
-    text-decoration: none;
 }
 .home-logo #logo{  /* dinh dang kich thuoc cua logo home*/
     width: 85%;
@@ -389,19 +388,38 @@ body{
     padding-left: 5%;
 }
 .right{
-    padding-top: 50px;
+    padding: 10px;
     width: 100%;
     margin-top: 50px;
-    border-radius: 20px;
+}
+.header-bookcare{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.number-bookcare{
+    margin-top: 20px;
+    padding: 10px;
     background-color: white;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.right p{
-    text-align: center;
-    color: #0071ff;
+.number-bookcare span:nth-child(2){
+    color: green;
+    font-size: 25px;
 }
-.right img{
-    margin-left: 15%;
-    background-color: red;
-
+.number-bookcare span:nth-child(1){
+    color: green;
+    font-size: 20px;
+}
+.header-bookcare{
+    margin-top: 20px;
+}
+.history-pay{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.history-pay span{
+    margin-left: 50px;
 }
