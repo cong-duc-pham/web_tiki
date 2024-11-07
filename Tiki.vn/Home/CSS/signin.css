@@ -52,7 +52,7 @@ body{
 }
 .text-polecy{
     margin-left: 10px;
-    font-size: 10px;
+    font-size: 15px;
 }
 .SI-button{
     text-align: center;
@@ -80,13 +80,13 @@ body{
 }
 .f-pass{
     font-size: small;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 10px;
     color: #1BA8FF;
     text-decoration: none;
 }
 .si-sms{
-    margin-left: 320px;
+    margin-left: 350px;
     font-size: small;
     margin-top: 10px;
     color: #1BA8FF;

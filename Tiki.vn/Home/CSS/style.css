@@ -25,8 +25,6 @@
     padding-right: 8%;
     border-radius: 5px;
 }
-.box-item-sidebar:hover{
-}
 .header-list-sidebar{
     padding-top: 5%;
     padding-left: 10%;
@@ -79,10 +77,9 @@ main{/* Main */
     height: 300px;
 }
 .img-slide{
-    width: 600px;
+    width: 550px;
     height: 300px;
     border-radius: 3%; 
-    margin-right: 15px;
     margin-left: 15px;
     background-color: red;
 }
@@ -240,8 +237,16 @@ main{/* Main */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
-    width: 195px;
-    height: 191px;
+    width: 174px;
+    height: 171px;
+}
+
+.tag-img-of-box{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    z-index: 1000;
+    width: 100%;
 }
 .info-of-box{
     position: absolute;
@@ -333,8 +338,7 @@ hr{
 }
 .img-sale-off{
     background-color: rgb(185, 160, 164);
-    width: 150px;
-    position: absolute;
+    width: 100%;
 }
 .number-sale-off{
     position: absolute;
@@ -402,8 +406,8 @@ hr{
 .img-brand{
     border-radius: 10px;
     margin-left: 18px;
-    height: 263px;
-    width: 190px;
+    height: 243px;
+    width: 170px;
 }
 .items-foreign{
     background-color: white;
@@ -433,8 +437,8 @@ hr{
 .item-sale-off{
     margin-left: 13px;
     border-radius: 10px;
-    width: 194px;
-    height: 190px;
+    width: 174px;
+    height: 170px;
 }
 .maybe-your-like{/* muc ban co the thich*/
     background-color: white;
@@ -518,21 +522,20 @@ hr{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows:  360px 360px 360px 360px 360px;
-    column-gap: 6px;
-    row-gap: 15px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 .box{
     background-color: white;
     margin-left: 0.5%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
-    width: 200px;
-    height: 370px;
+    width: 180px;
+    height: 350px;
 }
 .width-logo-og-big-box{
     padding-top: 20px;
     padding-left: 100px;
-
     width: 40%;
 }
 .block-big-box-item{
@@ -542,8 +545,8 @@ hr{
     margin-left: 0.5%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
-    width: 400px;
-    height: 370px;
+    width: 360px;
+    height: 350px;
 }
 .block-big-box-item-2{
     grid-column: 4/6;
@@ -552,15 +555,15 @@ hr{
     margin-left: 0.5%;
     border: solid 0.5px #dadada;
     border-radius: 5%;
-    width: 380px;
-    height: 370px;
+    width: 360px;
+    height: 350px;
 }
 .big-box-item{ /*danh dang form san pham lon*/
     background-color: white;
     margin-left: 0.5%;
     border-radius: 5%;
-    width: 400px;
-    height: 370px;
+    width: 360px;
+    height: 350px;
 }
 .logo-brand-item{
     background-image: linear-gradient(180deg,#e2ecfe,#CECFCF);
@@ -663,4 +666,566 @@ hr{
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #0071ff;
+}
+@media (max-width:550px){
+    .sidebar{
+        display: none;
+    }
+    main{
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+    .img-slide{
+        width: 435px;
+    }
+    .block-slide-items a:nth-child(2){
+        display: none;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box{
+        margin-left: 15px;
+    }
+    .box-flash-sale{
+        width: 25%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 150px;/* /////////// */
+    }
+    .tab-choice{
+        font-size: 15px;
+        width: 90px;
+    }
+    .img-choice-header{
+        margin-left: 30%;
+        width: 20px;
+    }
+    .content-display{
+        grid-template-columns: auto auto ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px ;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 1/3;/* /////////// */
+    }
+    .img-item-sidebar{
+        width: 20px;
+        height: 20px;
+    }
+    .box-item-sidebar{
+        font-size: 15px;
+    }
+    .list-top-deal .box:nth-child(5){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(6){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(4){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(3){
+        display: none;
+    }
+    .item-your-care .box:nth-child(6){
+        display: none;
+    }
+    .item-your-care .box:nth-child(5){
+        display: none;
+    }
+    .item-your-care .box:nth-child(4){
+        display: none;
+    }
+    .item-your-care .box:nth-child(3){
+        display: none;
+    }
+    .plash-sale .box-flash-sale:nth-child(6){
+        display: none;
+    }.plash-sale .box-flash-sale:nth-child(5){
+        display: none;
+    }
+    .plash-sale .box-flash-sale:nth-child(4){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(6){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(5){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(4){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(3){
+        display: none;
+    }
+    .items-foreign .box:nth-child(6){
+        display: none;
+    }
+    .items-foreign .box:nth-child(5){
+        display: none;
+    }
+    .items-foreign .box:nth-child(4){
+        display: none;
+    }
+    .items-foreign .box:nth-child(3){
+        display: none;
+    }
+}
+@media (min-width:550px) and (max-width:849px){
+    .sidebar{
+        display: none;
+    }
+    main{
+        width: 100%;
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+    .container-main{
+        margin: 0;
+    }
+    .img-slide{
+        width: 510px;
+    }
+    .block-slide-items a:nth-child(2){
+        display: none;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 25%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 150px;/* /////////// */
+    }
+    .tab-choice{
+        font-size: 15px;
+        width: 90px;
+    }
+    .img-choice-header{
+        margin-left: 30%;
+        width: 20px;
+    }
+    .content-display{
+        grid-template-columns: auto auto auto   ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px ;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 1/3;/* /////////// */
+    }
+    .img-item-sidebar{
+        width: 20px;
+        height: 20px;
+    }
+    .box-item-sidebar{
+        font-size: 15px;
+    }
+    .list-top-deal .box:nth-child(5){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(6){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(4){
+        display: none;
+    }
+    .item-your-care .box:nth-child(6){
+        display: none;
+    }
+    .item-your-care .box:nth-child(5){
+        display: none;
+    }
+    .item-your-care .box:nth-child(4){
+        display: none;
+    }
+    .plash-sale .box-flash-sale:nth-child(6){
+        display: none;
+    }.plash-sale .box-flash-sale:nth-child(5){
+        display: none;
+    }
+    .plash-sale .box-flash-sale:nth-child(4){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(6){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(5){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(4){
+        display: none;
+    }
+    .items-foreign .box:nth-child(6){
+        display: none;
+    }
+    .items-foreign .box:nth-child(5){
+        display: none;
+    }
+    .items-foreign .box:nth-child(4){
+        display: none;
+    }
+}
+@media (min-width:850px) and (max-width:949px){
+    main{
+        padding: 0;
+    }
+    .img-slide{
+        width: 370px;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 20%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 180px;/* /////////// */
+    }
+    .content-display{
+        grid-template-columns: auto auto auto   ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px ;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 1/3;/* /////////// */
+    }
+    .img-item-sidebar{
+        width: 20px;
+        height: 20px;
+    }
+    .box-item-sidebar{
+        font-size: 15px;
+    }
+    .list-top-deal .box:nth-child(5){
+        display: none;
+    }
+    .list-top-deal .box:nth-child(6){
+        display: none;
+    }
+    .item-your-care .box:nth-child(6){
+        display: none;
+    }.item-your-care .box:nth-child(5){
+        display: none;
+    }
+    .plash-sale .box-flash-sale:nth-child(6){
+        display: none;
+    }.plash-sale .box-flash-sale:nth-child(5){
+        display: none;
+    }
+    .maybe-your-like .box:nth-child(6){
+        display: none;
+    }.maybe-your-like .box:nth-child(5){
+        display: none;
+    }
+    .items-foreign .box:nth-child(6){
+        display: none;
+    }.items-foreign .box:nth-child(5){
+        display: none;
+    }
+}
+@media (min-width:950px) and (max-width:1149px){
+    main{
+        padding: 0;
+    }
+    .img-slide{
+        width: 370px;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 15.5%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 180px;/* /////////// */
+    }
+    .content-display{
+        grid-template-columns: auto auto auto auto  ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px ;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 2/4;/* /////////// */
+    }
+    .img-item-sidebar{
+        width: 20px;
+        height: 20px;
+    }
+    .box-item-sidebar{
+        font-size: 15px;
+    }
+    .list-top-deal .box:last-child{
+        display: none;
+    }
+    .item-your-care .box:last-child{
+        display: none;
+    }
+    .plash-sale .box-flash-sale:last-child{
+        display: none;
+    }
+    .maybe-your-like .box:last-child{
+        display: none;
+    }
+    .items-foreign .box:last-child{
+        display: none;
+    }
+}
+@media (min-width:1150px) and (max-width:1299px){
+    main{
+        padding: 0;
+    }
+    .img-slide{
+        width: 450px;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 13.5%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 180px;/* /////////// */
+    }
+    .content-display{
+        grid-template-columns: auto auto auto auto auto ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px 360px;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 1/3;/* /////////// */
+    }
+}
+@media (min-width:1300px) and (max-width:1499px){
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .img-slide{
+        width: 485px;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 13.5%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 180px;/* /////////// */
+    }
+    .box-img-brand:last-child{
+        display: none; /* /////////// */
+    }
+    .content-display{
+        grid-template-columns: auto auto auto auto auto ;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px ;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 1/3;/* /////////// */
+    }
+@media (min-width:650px) and (max-width:749px){
+    .home-logo{ 
+        margin-left: 0;/* /////////// */
+    }
+    #text{
+        font-size: 9px;
+    }
+    .container-search{
+        width: 80%;
+    }
+    .icon-search{ 
+        height: 40%;
+    }
+    .button-search{
+        padding: 0;
+    }
+    .link-search{
+        font-size: 10px;
+    }
+    .search{ /*chieu dai cua thanh tim kiem*/
+        width: 27%;
+        height: 30px;
+    }
+    .menu-shortcut{ 
+        width: 19%;
+    }
+    .shortcut-home{ 
+        width: 20%;
+        padding: 2%;
+        margin-left: 0;
+        font-size: 70%;
+    }
+    .icon-home{  /* dinh dang icon home*/
+        margin-top: 5px;/* /////////// */
+        width: 20px;/* /////////// */
+        height: 20px;/* /////////// */
+    }
+    .shortcut-user{
+        width: 20%;
+        padding: 1%;
+        font-size: 70%;
+    }
+    .shortcut-user:hover .list-shortcut-user{
+        display: none;
+    }
+    .icon-user{ /* dinh dang icon*/
+        margin-top: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .shortcut-shoppingcart{
+        margin-left: 0;
+        margin-top: 4%;
+        height: 70%;
+    }
+    .list-recommend{
+        margin-top: 40px;
+        font-size: 70%;
+        width: 50%;
+    }
+    .location{
+        font-size: 70%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .img-location{
+        width: 10px;
+        height: 10px;
+    }
+    .button-signIn , .button-signUp{
+       display: none;
+    }
+    .commit{
+        margin-top: 30px;
+        padding: 5px;
+        height: 20px;
+    }
+    .list-commit{
+        width: 19%;
+        font-size: 8px;
+    }
+    .header-list-commit{
+        font-size: 11px;
+    }
+    .first-list-commit{
+        font-size: 10px;
+    }
+    .img-commit{
+        width: 19%;
+    }
+}
+}
+@media (min-width:1500px) and (max-width:1700px){
+    main{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .img-slide{
+        width: 580px;
+    }
+    .some-img-of-box{
+        position: relative;/* /////////// */
+        width: 100%;/* /////////// */
+    }
+    .tag-img-of-box{
+        margin-top: -100%;/* /////////// */
+    }
+    .plash-sale{ /* dinh dang muc flash sale*/
+        background-color: white;
+        border-radius: 15px;
+        height: 280px;
+        margin-top: 2%;
+        padding: 1%;
+    }
+    .box-flash-sale{
+        width: 13.5%;/* /////////// */
+        height: 12%;/* /////////// */
+    }
+    .img-brand{
+        width: 170px;/* /////////// */
+    }
+    .content-display{
+        grid-template-columns: auto auto auto auto auto auto;/* /////////// */
+        grid-template-rows:  360px 360px 360px 360px 360px;/* /////////// */
+        column-gap: 15px;/* /////////// */
+    }
+    .block-big-box-item-2{
+        grid-column: 4/6;/* /////////// */
+    }
 }
